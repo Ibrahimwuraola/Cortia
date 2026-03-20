@@ -1,0 +1,1719 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cortia</title>
+        <meta name="description" content="Full-featured, professional-looking software, saas and startup website template.">
+        <meta name="keywords" content="saas, saas template, site template, software, startup, digital product, html5, landing, marketing, bootstrap, uikit3, agency, ai, digital agency, it solutions, nodejs">
+        <link rel="canonical" href="https://unistudio.co/html/Insignia">
+        <meta name="theme-color" content="#178d72">
+
+        <!-- Open Graph Tags -->
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Cortia" />
+        <meta property="og:description" content="Full-featured, Professional-looking SaaS, Software and Startup Site Template." />
+        <meta property="og:url" content="https://unistudio.co/html/insignia/" />
+        <meta property="og:site_name" content="Insignia" />
+        <meta property="og:image:width" content="1180" />
+        <meta property="og:image:height" content="600" />
+        <meta property="og:image:type" content="image/png" />
+
+        <!-- Twitter Card Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Cortia">
+        <meta name="twitter:description" content="Full-featured, Professional-looking SaaS, Software and Startup Site Template.">
+
+
+        <link rel="canonical" href="https://unistudio.co/html/insignia/" />
+
+        <!-- preload head styles -->
+        <link rel="preload" href="../assets/css/fonts.css" as="style">
+        <link rel="preload" href="../assets/css/unicons.min.css" as="style">
+        <link rel="preload" href="../assets/css/swiper-bundle.min.css" as="style">
+
+        <!-- preload footer scripts -->
+        <link rel="preload" href="../assets/js/libs/jquery.min.js" as="script">
+        <link rel="preload" href="../assets/js/libs/scrollmagic.min.js" as="script">
+        <link rel="preload" href="../assets/js/libs/swiper-bundle.min.js" as="script">
+        <link rel="preload" href="../assets/js/libs/anime.min.js" as="script">
+        <link rel="preload" href="../assets/js/libs/prettify.min.js" as="script">
+        <link rel="preload" href="../assets/js/libs/gsap.min.js" as="script">
+        <link rel="preload" href="../assets/js/helpers/data-attr-helper.js" as="script">
+        <link rel="preload" href="../assets/js/helpers/swiper-helper.js" as="script">
+        <link rel="preload" href="../assets/js/helpers/anime-helper.js" as="script">
+        <link rel="preload" href="../assets/js/uikit-components-bs.js" as="script">
+        <link rel="preload" href="../assets/js/app-theme.js" as="script">
+
+        <!-- app head for bootstrap core -->
+        <script src="../assets/js/app-head-bs.js"></script>
+
+        <!-- include uni-core components -->
+        <link rel="stylesheet" href="../assets/js/uni-core/css/uni-core.min.css">
+
+        <!-- include styles -->
+        <link rel="stylesheet" href="../assets/css/fonts.css">
+        <link rel="stylesheet" href="../assets/css/unicons.min.css">
+        <link rel="stylesheet" href="../assets/css/prettify.min.css">
+        <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+
+        <!-- include main style -->
+        <link rel="stylesheet" href="../assets/css/theme/main.min.css">
+
+        <!-- include scripts -->
+        <script src="../assets/js/uni-core/js/uni-core-bundle.min.js"></script>
+    </head>
+
+    <body class="uni-body panel page-services text-gray-900 dark:bg-black dark:text-white">
+
+        <!--  Search modal -->
+        <!--<div id="uc-search-modal" class="uc-modal-full uc-modal" data-uc-modal="overlay: true">
+            <div class="uc-modal-dialog d-flex justify-center bg-white text-dark dark:bg-gray-900 dark:text-white" data-uc-height-viewport="">
+
+                <div class="uc-modal-close-full m-1 p-0 vstack gap-narrow text-center">
+                    <button class="icon-3 btn btn-md btn-dark dark:bg-white dark:text-dark w-24px sm:w-32px h-24px sm:h-32px rounded-circle flex-1" type="button">
+                        <i class="unicon-close"></i>
+                    </button>
+                    <span class="ft-tertiary fs-7">ESC</span>
+                </div>
+
+                <div class="panel w-100 sm:w-500px px-2 py-10">
+                    <h3 class="h4 sm:h2 text-center">What are you looking for?</h3>
+                    <form class="hstack gap-1 mt-4 border-bottom p-narrow dark:border-gray-700" action="https://unistudio.co/html/insignia/main/page-services?">
+                        <span class="d-inline-flex justify-center items-center w-24px sm:w-40 h-24px sm:h-40px opacity-50"><i class="unicon-search icon-3"></i></span>
+                        <input type="search" name="q" class="form-control-plaintext ms-1 fs-6 sm:fs-5 w-full dark:text-white" placeholder="Type your keyword.." aria-label="Search" autofocus>
+                    </form>
+                </div>-->
+            </div>
+        </div>
+
+        <!--  Newsletter modal -->
+        <!--<div id="uc-newsletter-modal" data-uc-modal="overlay: true">
+            <div class="uc-modal-dialog w-800px bg-white text-dark dark:bg-gray-900 dark:text-white rounded-3 p-1 overflow-hidden">
+                <button class="uc-modal-close-default p-0 icon-3 btn border-0 dark:text-white dark:text-opacity-50 hover:text-primary hover:rotate-90 duration-150 transition-all" type="button">
+                    <i class="unicon-close"></i>
+                </button>
+                <div class="row md:child-cols-6 col-match g-0">
+                    <div class="d-none md:d-flex">
+                        <div class="position-relative w-100 ratio-1x1 rounded-2 overflow-hidden">
+                            <img class="media-cover" src="../assets/images/common/newsletter.jpg" alt="Newsletter image">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="panel vstack self-center p-4 md:py-8 text-center">
+                            <h3 class="h3 md:h2">Subscribe to our Newsletter</h3>
+                            <p class="ft-tertiary">Join 10k+ people to get notified about new posts, news and updates.</p>
+                            <div class="panel mt-2 lg:mt-4">
+                                <form class="vstack gap-1">
+                                    <input type="email" class="form-control form-control-sm w-full fs-6 bg-white dark:border-white dark:border-gray-700" placeholder="Your email address..">
+                                    <button type="submit" class="btn btn-sm btn-primary">Sign up</button>
+                                </form>
+                                <p class="fs-7 mt-2">Do not worry we don't spam!</p>
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  Acccount modal -->
+        <!--<div id="uc-account-modal" data-uc-modal="overlay: true">
+            <div class="uc-modal-dialog lg:max-w-500px bg-gray-25 text-dark dark:bg-gray-800 dark:text-white rounded">
+
+                <button class="uc-modal-close-default top-0 ltr:end-0 rtl:start-0 rtl:end-auto m-2 p-0 border-0 icon-2 lg:icon-3 btn btn-md dark:text-white transition-transform duration-150 hover:rotate-90" type="button">
+                    <i class="unicon-close"></i>
+                </button>
+
+
+                <div class="panel vstack gap-2 md:gap-4 text-center">
+                    <ul class="account-tabs-nav nav-x justify-center h6 py-2 border-bottom d-none" data-uc-switcher="animation: uc-animation-slide-bottom-small, uc-animation-slide-top-small">
+                        <li><a href="page-services.html#">Sign in</a></li>
+                        <li><a href="page-services.html#">Sign up</a></li>
+                        <li><a href="page-services.html#">Reset password</a></li>
+                        <li><a href="page-services.html#">Terms of use</a></li>
+                    </ul>
+                    <div class="account-tabs-content uc-switcher px-3 lg:px-4 py-4 lg:py-8 m-0 lg:mx-auto vstack justify-center items-center">
+                        <div class="w-100">
+                            <div class="panel vstack justify-center items-center gap-2 sm:gap-4 text-center">
+                                <h4 class="h5 lg:h4 m-0">Log in</h4>
+                                <div class="panel vstack gap-4 w-100 sm:w-350px mx-auto">
+                                    <form class="vstack gap-2">
+                                        <input class="form-control h-48px w-full bg-white dark:border-white dark:text-dark" type="email" placeholder="Your email" required>
+                                        <input class="form-control h-48px w-full bg-white dark:border-white dark:text-dark" type="password" placeholder="Password" required>
+                                        <div class="hstack justify-between items-start text-start">
+                                            <div class="form-check text-start rtl:text-end">
+                                                <input class="form-check-input rounded-0 dark:bg-gray-900 dark:text-white dark:border-gray-700" type="checkbox" id="inputCheckRemember">
+                                                <label class="hstack justify-between form-check-label fs-7 sm:fs-6" for="inputCheckRemember">Remember me?</label>
+                                            </div>
+                                            <a href="page-services.html#" class="uc-link" data-uc-switcher-item="2">Forgot password</a>
+                                        </div>
+                                        <button class="btn btn-primary btn-md text-white lg:mt-2" type="submit">Log in</button>
+                                    </form>
+                                    <div class="panel">
+                                        <hr class="m-0">
+                                        <span class="position-absolute top-50 start-50 translate-middle p-1 fs-7 text-uppercase bg-white dark:bg-gray-800">Or</span>
+                                    </div>
+                                    <div class="hstack gap-2">
+                                        <a href="page-services.html#google" class="hstack items-center justify-center flex-1 gap-1 h-48px text-none rounded border border-gray-900 dark:border-white border-opacity-10">
+                                            <i class="icon icon-1 unicon-logo-google"></i>
+                                        </a>
+                                        <a href="page-services.html#facebook" class="hstack items-center justify-center flex-1 gap-1 h-48px text-none rounded border border-gray-900 dark:border-white border-opacity-10">
+                                            <i class="icon icon-1 unicon-logo-facebook"></i>
+                                        </a>
+                                        <a href="page-services.html#x" class="hstack items-center justify-center flex-1 gap-1 h-48px text-none rounded border border-gray-900 dark:border-white border-opacity-10">
+                                            <i class="icon icon-1 unicon-logo-x-filled"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="fs-7 sm:fs-6">Have no account yet? <a class="uc-link" href="page-services.html#" data-uc-switcher-item="1">Sign up</a></p>
+                            </div>
+                        </div>
+                        <div class="w-100">
+                            <div class="panel vstack justify-center items-center gap-2 sm:gap-4 text-center">
+                                <h4 class="h5 lg:h4 m-0">Create an account</h4>
+                                <div class="panel vstack gap-4 w-100 sm:w-350px mx-auto">
+                                    <form class="vstack gap-2">
+                                        <input class="form-control h-48px w-full bg-white dark:border-white dark:text-dark" type="text" placeholder="Full name" required>
+                                        <input class="form-control h-48px w-full bg-white dark:border-white dark:text-dark" type="email" placeholder="Your email" required>
+                                        <input class="form-control h-48px w-full bg-white dark:border-white dark:text-dark" type="password" placeholder="Password" required>
+                                        <input class="form-control h-48px w-full bg-white dark:border-white dark:text-dark" type="password" placeholder="Re-enter Password" required>
+                                        <div class="hstack text-start">
+                                            <div class="form-check text-start rtl:text-end">
+                                                <input class="form-check-input rounded-0 dark:bg-gray-900 dark:text-white dark:border-gray-700" type="checkbox" required>
+                                                <label class="hstack justify-between form-check-label fs-7 sm:fs-6">I read and accept the <a href="page-services.html#" class="uc-link ltr:ms-narrow rtl:me-narrow" data-uc-switcher-item="3">terms of use</a>. </label>
+                                            </div>
+                                        </div>
+                                        <button class="btn btn-primary btn-md text-white lg:mt-2" type="submit">Sign up</button>
+                                    </form>
+                                    <div class="panel">
+                                        <hr class="m-0">
+                                        <span class="position-absolute top-50 start-50 translate-middle p-1 fs-7 text-uppercase bg-white dark:bg-gray-800">Or</span>
+                                    </div>
+                                    <div class="hstack gap-2">
+                                        <a href="page-services.html#google" class="hstack items-center justify-center flex-1 gap-1 h-48px text-none rounded border border-gray-900 dark:border-white border-opacity-10">
+                                            <i class="icon icon-1 unicon-logo-google"></i>
+                                        </a>
+                                        <a href="page-services.html#facebook" class="hstack items-center justify-center flex-1 gap-1 h-48px text-none rounded border border-gray-900 dark:border-white border-opacity-10">
+                                            <i class="icon icon-1 unicon-logo-facebook"></i>
+                                        </a>
+                                        <a href="page-services.html#x" class="hstack items-center justify-center flex-1 gap-1 h-48px text-none rounded border border-gray-900 dark:border-white border-opacity-10">
+                                            <i class="icon icon-1 unicon-logo-x-filled"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="fs-7 sm:fs-6">Already have an account? <a class="uc-link" href="page-services.html#" data-uc-switcher-item="0">Log in</a></p>
+                            </div>
+                        </div>
+                        <div class="w-100">
+                            <div class="panel vstack justify-center items-center gap-2 sm:gap-4 text-center">
+                                <h4 class="h5 lg:h4 m-0">Reset password</h4>
+                                <div class="panel w-100 sm:w-350px">
+                                    <form class="vstack gap-2">
+                                        <input class="form-control h-48px w-full bg-white dark:border-white dark:text-dark" type="email" placeholder="Your email" required>
+                                        <div class="form-check text-start rtl:text-end">
+                                            <input class="form-check-input rounded-0 dark:bg-gray-900 dark:text-white dark:border-gray-700" type="checkbox" id="inputCheckVerify" required>
+                                            <label class="form-check-label fs-7 sm:fs-6" for="inputCheckVerify">
+                                                <span>I'm not a robot</span>.
+                                            </label>
+                                        </div>
+                                        <button class="btn btn-primary btn-md text-white lg:mt-2" type="submit">Reset a password</button>
+                                    </form>
+                                </div>
+                                <p class="fs-7 sm:fs-6 mt-2 sm:m-0">Remember your password? <a class="uc-link" href="page-services.html#" data-uc-switcher-item="0">Log in</a></p>
+                            </div>
+                        </div>
+                        <div class="w-100">
+                            <div class="panel vstack justify-center items-center gap-2 sm:gap-4">
+                                <h4 class="h5 lg:h4 m-0">Terms of use</h4>
+                                <div class="page-content panel fs-6 text-start max-h-400px overflow-scroll">
+                                    <p>Terms of use dolor sit amet consectetur, adipisicing elit. Recusandae provident ullam aperiam quo ad non corrupti sit vel quam repellat ipsa quod sed, repellendus adipisci, ducimus ea modi odio assumenda.</p>
+                                    <h5 class="h6 md:h5 mt-3 mb-1">Disclaimers</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, cum esse possimus officiis amet ea voluptatibus libero! Dolorum assumenda esse, deserunt ipsum ad iusto! Praesentium error nobis tenetur at, quis nostrum facere excepturi architecto totam.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, soluta alias eaque modi ipsum sint iusto fugiat vero velit rerum.</p>
+                                    <h5 class="h6 md:h5 mt-3 mb-1">Limitation on Liability</h5>
+                                    <p>Sequi, cum esse possimus officiis amet ea voluptatibus libero! Dolorum assumenda esse, deserunt ipsum ad iusto! Praesentium error nobis tenetur at, quis nostrum facere excepturi architecto totam.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, soluta alias eaque modi ipsum sint iusto fugiat vero velit rerum.</p>
+                                    <h5 class="h6 md:h5 mt-3 mb-1">Copyright Policy</h5>
+                                    <p>Dolor sit amet consectetur adipisicing elit. Sequi, cum esse possimus officiis amet ea voluptatibus libero! Dolorum assumenda esse, deserunt ipsum ad iusto! Praesentium error nobis tenetur at, quis nostrum facere excepturi architecto totam.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, soluta alias eaque modi ipsum sint iusto fugiat vero velit rerum.</p>
+                                    <h5 class="h6 md:h5 mt-3 mb-1">General</h5>
+                                    <p>Sit amet consectetur adipisicing elit. Sequi, cum esse possimus officiis amet ea voluptatibus libero! Dolorum assumenda esse, deserunt ipsum ad iusto! Praesentium error nobis tenetur at, quis nostrum facere excepturi architecto totam.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, soluta alias eaque modi ipsum sint iusto fugiat vero velit rerum.</p>
+                                </div>
+                                <p class="fs-7 sm:fs-6">Do you agree to our terms? <a class="uc-link" href="page-services.html#" data-uc-switcher-item="1">Sign up</a></p>
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  Menu panel -->
+        <div id="uc-menu-panel" data-uc-offcanvas="overlay: true;">
+            <div class="uc-offcanvas-bar bg-white text-dark dark:bg-gray-900 dark:text-white">
+
+                <header class="uc-offcanvas-header hstack justify-between items-center pb-2 bg-white dark:bg-gray-900">
+                    <div class="uc-logo">
+                        <a class='h5 text-none text-gray-900 dark:text-white' href='index.html'>
+                            <img class="w-128px d-none dark:d-block" src="../assets/images/main-logo/logo-dark.png" alt="Cortia">
+                            <img class="w-128px d-block dark:d-none" src="../assets/images/main-logo/logo-light.png" alt="Cortia">
+                        </a>
+                    </div>
+                    <button class="uc-offcanvas-close rtl:end-auto rtl:start-0 m-1 mt-2 icon-3 btn border-0 dark:text-white dark:text-opacity-50 hover:text-primary hover:rotate-90 duration-150 transition-all" type="button">
+                        <i class="unicon-close"></i>
+                    </button>
+                </header>
+
+                <div class="panel">
+                    <form id="search-panel" class="form-icon-group vstack gap-1 mb-2" data-uc-sticky="">
+                        <input type="email" class="form-control form-control-sm fs-7 rounded-default" placeholder="Search..">
+                        <span class="form-icon text-gray">
+                    <i class="unicon-search icon-1"></i>
+                </span>
+                    </form>
+                    <!--<ul class="nav-y gap-narrow fw-medium fs-6" data-uc-nav>
+                        <li class="uc-parent">
+                            <a href='index.html'>Home</a>
+                            <ul class="uc-nav-sub">
+                                <li><a href='index.html'>Home 01</a></li>
+                                <li><a href='index-2.html'>Home 02</a></li>
+                                <li><a href='index-3.html'>Home 03</a></li>
+                                <li><a href='index-4.html'>Home 04</a></li>
+                                <li><a href='index-5.html'>Home 05</a></li>
+                                <li><a href="page-services.html#">Home 06 <span class="fw-bold text-gray-400 dark:text-white fs-8 ms-1 px-1 bg-primary text-white dark:bg-secondary dark:text-primary border border-primary dark:border-secondary rounded-pill">Soon</span></a></li>
+                                <li><a href="page-services.html#">Home 07 <span class="fw-bold text-gray-400 dark:text-white fs-8 ms-1 px-1 bg-primary text-white dark:bg-secondary dark:text-primary border border-primary dark:border-secondary rounded-pill">Soon</span></a></li>
+                                <li><a href="page-services.html#">Home 08 <span class="fw-bold text-gray-400 dark:text-white fs-8 ms-1 px-1 bg-primary text-white dark:bg-secondary dark:text-primary border border-primary dark:border-secondary rounded-pill">Soon</span></a></li>
+                                <li><a href="page-services.html#">Home 09 <span class="fw-bold text-gray-400 dark:text-white fs-8 ms-1 px-1 bg-primary text-white dark:bg-secondary dark:text-primary border border-primary dark:border-secondary rounded-pill">Soon</span></a></li>
+                                <li><a href="page-services.html#">Home 10 <span class="fw-bold text-gray-400 dark:text-white fs-8 ms-1 px-1 bg-primary text-white dark:bg-secondary dark:text-primary border border-primary dark:border-secondary rounded-pill">Soon</span></a></li>
+                            </ul>
+                        </li>
+                        <li><a href='page-features.html'>Features</a></li>
+                        <li><a href='page-pricing.html'>Pricing</a></li>
+                        <li><a href='page-about.html'>About</a></li>
+                        <li><a href='page-career.html'>Career</a></li>
+                        <li><a href='page-contact.html'>Contact</a></li>
+                        <li class="uc-parent"><a href="page-services.html#">Inner Pages</a>
+                            <ul class="uc-nav-sub" data-uc-nav="">
+                                <li class="uc-parent"><a href='blog.html'>Blog</a>
+                                    <ul class="uc-nav-sub">
+                                        <li><a href='blog.html'>Full Width</a></li>
+                                        <li><a href='blog-2cols.html'>Grid 2 Cols</a></li>
+                                        <li><a href='blog-3cols.html'>Grid 3 Cols</a></li>
+                                        <li><a href='blog-4cols.html'>Grid 4 Cols</a></li>
+                                    </ul>
+                                </li>
+                                <li class="uc-parent"><a href='blog-details.html'>Blog - detail</a>
+                                    <ul class="uc-nav-sub">
+                                        <li><a href='blog-details.html'>Blog detail</a></li>
+                                        <li><a href='blog-details-2.html'>Blog detail - v2</a></li>
+                                    </ul>
+                                </li>
+                                <li class="uc-parent"><a href="page-services.html#">Useful pages</a>
+                                    <ul class="uc-nav-sub">
+                                        <li><a href='sign-up.html'>Sign up</a></li>
+                                        <li><a href='sign-in.html'>Sign in</a></li>
+                                        <li><a href='reset-password.html'>Reset password</a></li>
+                                        <li><a href='404.html'>404 page</a></li>
+                                        <li><a href='coming-soon.html'>Coming soon</a></li>
+                                    </ul>
+                                </li>
+                                <li class="uc-parent"><a href="page-services.html#">Other pages</a>
+                                    <ul class="uc-nav-sub">
+                                        <li><a href='request-demo.html'>Request demo</a></li>
+                                        <li><a href='request-demo-two.html'>Request demo-2</a></li>
+                                        <li><a href='page-faq.html'>FAQ</a></li>
+                                        <li><a href='page-terms.html'>Terms of use</a></li>
+                                        <li><a href='page-privacy.html'>Privacy policy</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="uc-parent"><a href='shop.html'>Shop</a>
+                            <ul class="uc-nav-sub" data-uc-nav="">
+                                <li class="uc-parent"><a href='shop.html'>Shop layouts</a>
+                                    <ul class="uc-nav-sub">
+                                        <li><a href='shop.html'>Shop 4 cols</a></li>
+                                        <li><a href='shop-3.html'>Shop 3 cols</a></li>
+                                        <li><a href='shop-2.html'>Shop 2 cols</a></li>
+                                        <li><a href='shop-sidebar.html'>Shop with sidebar</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="https://unistudio.co/html/insignia/main/shop-category.html">Archive category</a></li>
+                                <li><a href='shop-product-detail.html'>Product detail</a></li>
+                                <li><a href='shop-product-detail-2.html'>Product detail - v2</a></li>
+                                <li><a href='shop-cart.html'>Cart</a></li>
+                                <li><a href='shop-cart-2.html'>Cart - v2</a></li>
+                                <li><a href='shop-checkout.html'>Checkout</a></li>
+                                <li><a href='shop-checkout-2.html'>Checkout - v2</a></li>
+                                <li><a href='shop-order.html'>Order confirmation</a></li>
+                            </ul>
+                        </li>
+                        <li class="hr opacity-10 my-1"></li>
+                        <li><a href='sign-up.html'>Create an account</a></li>
+                        <li><a href='sign-in.html'>Log in</a></li>
+                        <li><a href="https://themeforest.net/user/sweetheme/portfolio">Buy Template</a></li>
+                    </ul>
+                    <ul class="social-icons nav-x mt-4">
+                        <li>
+                            <a href="page-services.html#"><i class="unicon-logo-medium icon-2"></i></a>
+                            <a href="page-services.html#"><i class="unicon-logo-x-filled icon-2"></i></a>
+                            <a href="page-services.html#"><i class="unicon-logo-instagram icon-2"></i></a>
+                            <a href="page-services.html#"><i class="unicon-logo-pinterest icon-2"></i></a>
+                        </li>
+                    </ul>
+                    <div class="py-2 hstack gap-2 mt-4 bg-white dark:bg-gray-900" data-uc-sticky="position: bottom">
+                        <div class="vstack gap-1">
+                            <span class="fs-7 opacity-60">Select theme:</span>
+                            <div class="darkmode-trigger" data-darkmode-switch="">
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider fs-5"></span>
+                                </label>
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--  Cart panel -->
+        <!--<div id="uc-cart-panel" data-uc-offcanvas="overlay: true; flip: true;">
+            <div class="uc-offcanvas-bar bg-white text-dark dark:bg-gray-900 dark:text-white">
+
+                <button class="uc-offcanvas-close top-0 ltr:end-0 rtl:start-0 rtl:end-auto m-2 p-0 border-0 icon-2 lg:icon-3 btn btn-md dark:text-white transition-transform duration-150 hover:rotate-90" type="button">
+                    <i class="unicon-close"></i>
+                </button>
+
+                <div class="mini-cart-content vstack justify-between panel h-100">
+                    <div class="mini-cart-header">
+                        <h3 class="title h5 m-0 text-dark dark:text-white">Shopping cart</h3>
+                    </div>
+                    <div class="mini-cart-listing panel flex-1 my-4 overflow-scroll">
+                        <p class="alert alert-warning" hidden>Your cart empty!</p>
+                        <div class="panel vstack gap-3">
+                            <div>
+                                <article class="product type-product panel">
+                                    <div class="hstack gap-2">
+                                        <figure class="featured-image m-0 rounded ratio ratio-1x1 w-80px uc-transition-toggle overflow-hidden">
+                                            <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/common/products/img-07.jpg" alt="Laptop Cover">
+                                            <a class='position-cover' data-caption='Laptop Cover' href='shop-product-detail.html'></a>
+                                        </figure>
+                                        <div class="content vstack gap-narrow fs-6">
+                                            <h5 class="h6 m-0"><a class='text-none text-dark dark:text-white' href='shop-product-detail.html'>Laptop Cover</a></h5>
+                                            <div class="hstack gap-narrow fs-7 opacity-50 text-dark dark:text-white">
+                                                <span class="qty">1</span> x <span class="price">$24.00</span>
+                                            </div>
+                                            <a href="page-services.html#remove_from_cart" class="remove fs-7 text-dark dark:text-white">Remove</a>
+                                        </div>
+                                        <a href="page-services.html#remove_from_cart" class="remove position-absolute top-0 end-0 btn p-0 hover:text-danger" hidden>
+                                            <i class="unicon-close icon-1"></i>
+                                        </a>
+                                    </div>
+                                </article>
+                            </div>
+                            <div>
+                                <article class="product type-product panel">
+                                    <div class="hstack gap-2">
+                                        <figure class="featured-image m-0 rounded ratio ratio-1x1 w-80px uc-transition-toggle overflow-hidden">
+                                            <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/common/products/img-08.jpg" alt="Disney Toys">
+                                            <a class='position-cover' data-caption='Disney Toys' href='shop-product-detail.html'></a>
+                                        </figure>
+                                        <div class="content vstack gap-narrow fs-6">
+                                            <h5 class="h6 m-0"><a class='text-none text-dark dark:text-white' href='shop-product-detail.html'>Disney Toys</a></h5>
+                                            <div class="hstack gap-narrow fs-7 opacity-50 text-dark dark:text-white">
+                                                <span class="qty">1</span> x <span class="price">$5.00</span>
+                                            </div>
+                                            <a href="page-services.html#remove_from_cart" class="remove fs-7 text-dark dark:text-white">Remove</a>
+                                        </div>
+                                        <a href="page-services.html#remove_from_cart" class="remove position-absolute top-0 end-0 btn p-0 hover:text-danger" hidden>
+                                            <i class="unicon-close icon-1"></i>
+                                        </a>
+                                    </div>
+                                </article>
+                            </div>
+                            <div>
+                                <article class="product type-product panel">
+                                    <div class="hstack gap-2">
+                                        <figure class="featured-image m-0 rounded ratio ratio-1x1 w-80px uc-transition-toggle overflow-hidden">
+                                            <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/common/products/img-09.jpg" alt="Screen Axe">
+                                            <a class='position-cover' data-caption='Screen Axe' href='shop-product-detail.html'></a>
+                                        </figure>
+                                        <div class="content vstack gap-narrow fs-6">
+                                            <h5 class="h6 m-0"><a class='text-none text-dark dark:text-white' href='shop-product-detail.html'>Screen Axe</a></h5>
+                                            <div class="hstack gap-narrow fs-7 opacity-50 text-dark dark:text-white">
+                                                <span class="qty">1</span> x <span class="price">$19.00</span>
+                                            </div>
+                                            <a href="page-services.html#remove_from_cart" class="remove fs-7 text-dark dark:text-white">Remove</a>
+                                        </div>
+                                        <a href="page-services.html#remove_from_cart" class="remove position-absolute top-0 end-0 btn p-0 hover:text-danger" hidden>
+                                            <i class="unicon-close icon-1"></i>
+                                        </a>
+                                    </div>
+                                </article>
+                            </div>
+                            <div>
+                                <article class="product type-product panel">
+                                    <div class="hstack gap-2">
+                                        <figure class="featured-image m-0 rounded ratio ratio-1x1 w-80px uc-transition-toggle overflow-hidden">
+                                            <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/common/products/img-10.jpg" alt="Airpods Pro">
+                                            <a class='position-cover' data-caption='Airpods Pro' href='shop-product-detail.html'></a>
+                                        </figure>
+                                        <div class="content vstack gap-narrow fs-6">
+                                            <h5 class="h6 m-0"><a class='text-none text-dark dark:text-white' href='shop-product-detail.html'>Airpods Pro</a></h5>
+                                            <div class="hstack gap-narrow fs-7 opacity-50 text-dark dark:text-white">
+                                                <span class="qty">1</span> x <span class="price">$49.00</span>
+                                            </div>
+                                            <a href="page-services.html#remove_from_cart" class="remove fs-7 text-dark dark:text-white">Remove</a>
+                                        </div>
+                                        <a href="page-services.html#remove_from_cart" class="remove position-absolute top-0 end-0 btn p-0 hover:text-danger" hidden>
+                                            <i class="unicon-close icon-1"></i>
+                                        </a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mini-cart-footer panel pt-3 border-top">
+                        <div class="panel vstack gap-3 justify-between">
+                            <div class="mini-cart-total hstack justify-between">
+                                <h5 class="h5 m-0 text-dark dark:text-white">Subtotal</h5>
+                                <b class="fs-5">$97.00</b>
+                            </div>
+                            <div class="mini-cart-actions vstack gap-1">
+                                <a class='btn btn-md btn-outline-gray-100 text-dark dark:text-white dark:border-gray-700 dark:hover:bg-gray-700' href='shop-cart.html'>View cart</a>
+                                <a class='btn btn-md btn-primary text-white dark:bg-secondary dark:text-primary' href='shop-checkout.html'>Checkout</a>
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--  Favorites modal -->
+        <!--<div id="uc-favorites-panel" data-uc-modal="overlay: true">
+            <div class="uc-modal-dialog lg:max-w-500px bg-white text-dark dark:bg-gray-800 dark:text-white rounded">
+
+                <button class="uc-modal-close-default top-0 ltr:end-0 rtl:start-0 rtl:end-auto m-2 p-0 border-0 icon-2 lg:icon-3 btn btn-md dark:text-white transition-transform duration-150 hover:rotate-90" type="button">
+                    <i class="unicon-close"></i>
+                </button>
+
+
+                <div class="panel vstack justify-center items-center gap-2 text-center py-8">
+                    <i class="icon icon-4 unicon-bookmark mb-2 text-primary dark:text-white"></i>
+                    <h2 class="h4 md:h3 m-0">Your favorites</h2>
+                    <p class="fs-5 opacity-60">You have not yet added any recipe to your favorites list.</p>
+                    <a href="page-services.html#" class="btn btn-md btn-outline-gray-100 text-dark dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 mt-2 uc-modal-close">Browse recipes</a>
+                </div>
+            </div>-->
+        </div>
+
+        <!--  Contact modal -->
+        <!--<div id="uc-contact-modal" data-uc-modal="overlay: true">
+            <div class="uc-modal-dialog lg:max-w-650px bg-gray-25 text-dark dark:bg-gray-800 dark:text-white rounded-1-5">
+
+                <button class="uc-modal-close-default top-0 ltr:end-0 rtl:start-0 rtl:end-auto m-2 p-0 border-0 icon-2 lg:icon-3 btn btn-md dark:text-white transition-transform duration-150 hover:rotate-90" type="button">
+                    <i class="unicon-close"></i>
+                </button>
+
+
+                <div class="panel vstack gap-2 md:gap-4 text-center">
+                    <div class="panel cstack px-3 md:px-4 py-4 md:py-8 m-0 lg:mx-auto">
+                        <div class="panel vstack justify-center items-center gap-2 sm:gap-4 text-center">
+                            <h4 class="h5 lg:h4 m-0">Schedule your 15-minute demo now</h4>
+                            <div class="panel w-100 sm:w-350px md:w-500px mx-auto">
+                                <form class="vstack gap-2">
+                                    <div class="vstack lg:hstack gap-2">
+                                        <input class="form-control h-48px w-100 md:w-1/2 bg-white dark:border-white dark:text-dark" type="text" placeholder="Full name*" required>
+                                        <input class="form-control h-48px w-100 md:w-1/2 bg-white dark:border-white dark:text-dark" type="text" placeholder="Last name*" required>
+                                    </div>
+                                    <div class="vstack lg:hstack gap-2">
+                                        <input class="form-control h-48px w-100 md:w-1/2 bg-white dark:border-white dark:text-dark" type="email" placeholder="Your email*" required>
+                                        <input class="form-control h-48px w-100 md:w-1/2 rtl:text-end bg-white dark:border-white dark:text-dark" type="tel" placeholder="Phone number*" required>
+                                    </div>
+                                    <input class="form-control h-48px w-full bg-white dark:border-white dark:text-dark" type="text" placeholder="Company name*" required>
+                                    <textarea class="form-control min-h-150px w-full bg-white dark:border-white dark:text-dark" placeholder="Your message.."></textarea>
+                                    <button class="btn btn-primary btn-md text-white mt-2" type="submit">Schedule my demo</button>
+                                    <p class="fs-7 opacity-70 mt-2 text-center">We’ll tailor your demo to your immediate needs and answer all your questions. Get ready to see how it works!</p>
+                                </form>
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  Bottom Actions Sticky -->
+        <div class="backtotop-wrap position-fixed bottom-0 end-0 z-99 m-2 vstack">
+            <div class="darkmode-trigger cstack w-40px h-40px rounded-circle text-none bg-gray-100 dark:bg-gray-700 dark:text-white" data-darkmode-toggle="">
+                <label class="switch">
+                    <span class="sr-only">Dark mode toggle</span>
+                    <input type="checkbox">
+                    <span class="slider fs-5"></span>
+                </label>
+            </div>
+            <a class="btn btn-sm bg-primary text-white w-40px h-40px rounded-circle" href="https://unistudio.co/html/insignia/main/to_top" data-uc-backtotop>
+                <i class="icon-2 unicon-chevron-up"></i>
+            </a>
+        </div>
+
+        <!-- Header start -->
+        <!--<div class="uc-banner-top py-1 p-2 m-0 hide-on-sticky text-center bg-primary dark:bg-secondary text-white dark:text-primary" data-uc-alert data-anime="opacity: [0, 1]; easing: easeInOutCubic; duration: 500; delay: 0;">
+            <a href="page-services.html#" class="uc-alert-close top-0 end-0 z-999" style="margin: 14px;" data-uc-close></a>
+            <div class="panel vstack gap-2 items-center sm:hstack sm:justify-center sm:gap-1"><span class="badge bg-secondary text-primary dark:bg-primary dark:text-white w-fit">New</span>
+                <p>Insigna update 2025 : Discover new CRM innovations and strategies to elevate you business . <br class="d-block lg:d-none"> <a href="page-services.html#" class="uc-link border-bottom border-secondary dark:border-primary text-white dark:text-primary" target="_blank" rel="nofollow">Check it out!</a></p>
+            </div>-->
+        </div>
+        <header class="uc-header uc-navbar-sticky-wrap z-999 " style="--uc-nav-height: 80px" data-uc-sticky="start: 100vh; show-on-up: true; animation: uc-animation-slide-top; sel-target: .uc-navbar-container; cls-active: uc-navbar-sticky; cls-inactive: uc-navbar-transparent; end: !*;">
+            <nav class="uc-navbar-container uc-navbar-float ft-tertiary z-1" data-anime="translateY: [-40, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 0;">
+                <div class="container sm:max-w-xl xl:max-w-2xl">
+                    <div class="uc-navbar min-h-64px lg:min-h-80px dark:text-white" data-uc-navbar="mode: click; animation: uc-animation-slide-top-small; duration: 150;">
+                        <div class="uc-navbar-left">
+                            <a class='light-logo text-none d-block dark:d-none' href='index.html'>
+                                <img class="w-200px" src="../assets/images/main-logo/logo-light.png" alt="Insignia">
+                            </a>
+                            <a class='dark-logo text-none d-none dark:d-block' href='index.html'>
+                                <img class="w-200px" src="../assets/images/main-logo/logo-dark.png" alt="Insignia">
+                            </a>
+                        </div>
+
+                        <div class="uc-navbar-center">
+     <ul class="uc-navbar-nav gap-3 xl:gap-4 d-none lg:d-flex fw-semibold">
+
+        <!-- Cortia Stack -->
+        <li>
+            <a href="#">Cortia Stack <span data-uc-navbar-parent-icon></span></a>
+            <div class="uc-navbar-dropdown" data-uc-drop="mode: click; offset: 0; boundary: !.uc-navbar; stretch: x;">
+                <ul class="uc-nav uc-navbar-dropdown-nav">
+                    <li><a href="#">Institution Management System</a></li>
+                    <li><a href="page-core information.html">Core Information</a></li>
+                    <li><a href="page-core-real.html">Core Real</a></li>
+                </ul>
+            </div>
+        </li>
+
+        <!-- Company -->
+        <li>
+            <a href="#">Company <span data-uc-navbar-parent-icon></span></a>
+            <div class="uc-navbar-dropdown" data-uc-drop="mode: click;">
+                <ul class="uc-nav uc-navbar-dropdown-nav">
+                    <li><a href="page-about.html">Core Story</a></li>
+                    <li><a href="page-team.html">Our Team</a></li>
+                </ul>
+            </div>
+        </li>
+
+        <!-- Insights -->
+        <li>
+            <a href="#">Insights <span data-uc-navbar-parent-icon></span></a>
+            <div class="uc-navbar-dropdown" data-uc-drop="mode: click;">
+                <ul class="uc-nav uc-navbar-dropdown-nav">
+                    <li><a href="page-privacy.html">Privacy policy</a></li>
+                    <li><a href="#">Media</a></li>
+                </ul>
+            </div>
+        </li>
+
+        <!-- Contact -->
+        <li><a href="page-contact.html">Contact Us</a></li>
+
+    </ul>
+</div>
+                       
+                        
+                                                        <!--<ul class="uc-nav uc-navbar-dropdown-nav">
+                                                            <li class="uc-nav-header">Main Pages</li>
+                                                            <li><a href='index.html'>Home 01</a></li>
+                                                            <li><a href='index-2.html'>Home 02</a></li>
+                                                            <li><a href='index-3.html'>Home 03</a></li>
+                                                            <li><a href='index-4.html'>Home 04</a></li>
+                                                            <li><a href='index-5.html'>Home 05</a></li>
+                                                            <li><a href="page-services.html#">Home 06 <span class="fw-bold text-gray-400 dark:text-white fs-8 ms-1 px-1 border rounded-pill">Soon</span></a></li>
+                                                            <li><a href="page-services.html#">Home 07 <span class="fw-bold text-gray-400 dark:text-white fs-8 ms-1 px-1 border rounded-pill">Soon</span></a></li>
+                                                            <li><a href="page-services.html#">Home 08 <span class="fw-bold text-gray-400 dark:text-white fs-8 ms-1 px-1 border rounded-pill">Soon</span></a></li>
+                                                            <li><a href="page-services.html#">Home 09 <span class="fw-bold text-gray-400 dark:text-white fs-8 ms-1 px-1 border rounded-pill">Soon</span></a></li>
+                                                            <li><a href="page-services.html#">Home 10 <span class="fw-bold text-gray-400 dark:text-white fs-8 ms-1 px-1 border rounded-pill">Soon</span></a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div>
+                                                        <ul class="uc-nav uc-navbar-dropdown-nav">
+                                                            <li class="uc-nav-header">Inner Pages</li>
+                                                            <li><a href='page-features.html'>Features</a></li>
+                                                            <li><a href='page-pricing.html'>Pricing</a></li>
+                                                            <li><a href='page-integrations.html'>Integrations</a></li>
+                                                            <li><a href='single-integration.html'>Single Integrations</a></li>
+                                                            <li><a href='page-about.html'>About</a></li>
+                                                            <li><a href='page-career.html'>Career</a></li>
+                                                            <li><a href='page-team.html'>Team</a></li>
+                                                            <li><a href='page-career-detail.html'>Job details</a></li>
+                                                            <li><a href='page-contact.html'>Contact</a></li>
+                                                            <li><a href='page-contact-2.html'>Contact v2</a></li>
+                                                            <li><a href='page-services.html'>Services</a></li>
+                                                            <li><a href='page-service-detail.html'>Services details</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div>
+                                                        <ul class="uc-nav uc-navbar-dropdown-nav">
+                                                            <li class="uc-nav-header">CMS Pages</li>
+                                                            <li><a href='blog.html'>Modern</a></li>
+                                                            <li><a href='blog-classic.html'>Classic</a></li>
+                                                            <li><a href='blog-2cols.html'>Grid 2 cols</a></li>
+                                                            <li><a href='blog-3cols.html'>Grid 3 cols</a></li>
+                                                            <li><a href='blog-4cols.html'>Grid 4 cols</a></li>
+                                                            <li><a href='blog-category.html'>Category</a></li>
+                                                            <li><a href='blog-author.html'>Author</a></li>
+                                                            <li><a href='blog-details.html'>Blog single</a></li>
+                                                            <li><a href='blog-details-2.html'>Blog single v2</a></li>
+                                                            <li><a href='blog-details-3.html'>Blog single v3</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div>
+                                                        <ul class="uc-nav uc-navbar-dropdown-nav">
+                                                            <li class="uc-nav-header">Shop Pages</li>
+                                                            <li><a href='shop.html'>Grid 4 cols</a></li>
+                                                            <li><a href='shop-3.html'>Grid 3 cols</a></li>
+                                                            <li><a href='shop-2.html'>Grid 2 cols</a></li>
+                                                            <li><a href='shop-sidebar.html'>Shop sidebar</a></li>
+                                                            <li><a href='shop-product-detail.html'>Product detail</a></li>
+                                                            <li><a href='shop-product-detail-2.html'>Product detail v2</a></li>
+                                                            <li><a href='shop-cart.html'>Cart</a></li>
+                                                            <li><a href='shop-cart-2.html'>Cart v2</a></li>
+                                                            <li><a href='shop-checkout.html'>Checkout</a></li>
+                                                            <li><a href='shop-checkout-2.html'>Checkout v2</a></li>
+                                                            <li><a href='shop-order.html'>Order confirmation</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div>
+                                                        <ul class="uc-nav uc-navbar-dropdown-nav">
+                                                            <li class="uc-nav-header">Other pages</li>
+                                                            <li><a href='sign-in.html'>Sign in</a></li>
+                                                            <li><a href='sign-in-2.html'>Sign in v2</a></li>
+                                                            <li><a href='sign-up.html'>Sign up</a></li>
+                                                            <li><a href='sign-up-2.html'>Sign up v2</a></li>
+                                                            <li><a href='reset-password.html'>Reset password</a></li>
+                                                            <li><a href='reset-password-2.html'>Reset password v2</a></li>
+                                                            <li><a href='request-demo.html'>Request demo</a></li>
+                                                            <li><a href='request-demo-two.html'>Request demo-2</a></li>
+                                                            <li><a href='404.html'>404</a></li>
+                                                            <li><a href='coming-soon.html'>Coming Soon</a></li>
+                                                            <li><a href='page-faq.html'>Faq</a></li>
+                                                            <li><a href='page-terms.html'>Terms of service</a></li>
+                                                            <li><a href='page-privacy.html'>Privacy policy</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="panel w-100 overflow-hidden">
+                                                    <div class="ratio ratio-3x4 overflow-hidden rounded">
+                                                        <img src="../assets/images/template/menu-banner.jpg" alt="Let's build anything with Insignia!">
+                                                        <a class="position-cover" href="page-services.html#" target="_blank"></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="uc-navbar-right">
+                            <ul class="uc-navbar-nav gap-3 xl:gap-4 d-none lg:d-flex fw-semibold ltr:ms-2 ltr:xl:ms-4 rtl:me-2 rtl:xl:me-4">
+                                <li>
+                                    <a href="page-services.html#">Log in</a>
+                                    <div class="uc-navbar-dropdown p-3 w-300px ft-primary text-unset fs-6 fw-semibold p-0 hide-scrollbar rounded-2 overflow-hidden" data-uc-drop="mode: click; offset: 0; boundary: !.uc-navbar; animation: uc-animation-slide-top-small; duration: 150;">
+                                        <p class="fs-7">Insignia offers a comprehensive suite of tools that cover all aspects of your business.</p>
+                                        <form class="vstack gap-1 my-2">
+                                            <input class="form-control form-control-sm fs-7 w-full bg-gray-25 dark:bg-opacity-0 dark:text-white dark:border-gray-300 dark:border-opacity-30" type="text" placeholder="Full name" required>
+                                            <input class="form-control form-control-sm fs-7 w-full bg-gray-25 dark:bg-opacity-0 dark:text-white dark:border-gray-300 dark:border-opacity-30" type="email" placeholder="Your email" required>
+                                            <div class="hstack items-center justify-between mt-1">
+                                                <div class="form-check m-0">
+                                                    <input id="header_request_demo_application" class="form-check-input rounded bg-white dark:bg-opacity-0 dark:text-white dark:border-gray-300 dark:border-opacity-30" type="checkbox" required>
+                                                    <label for="header_request_demo_application" class="hstack justify-between form-check-label fw-semibold fs-7">I read and agree to <a class='uc-link text-underline ltr:ms-narrow rtl:me-narrow dark:text-secondary' href='page-terms.html'>terms</a>.</label>
+                                                </div>
+                                            </div>
+                                            <button class="btn btn-primary dark:bg-secondary dark:text-primary btn-sm text-white mt-1" type="submit">Request a demo</button>
+                                        </form>
+                                        <p class="fs-7">We care about your data in our <a class='uc-link text-underline dark:text-secondary' href='page-privacy.html'>privacy policy</a>.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a class='btn btn-md bg-primary dark:bg-white dark:text-primary border-0 text-white text-none d-none lg:d-inline-flex' href='sign-up.html'>Sign up
+                                <i class="icon lg:icon-1 unicon unicon-user"></i>
+                            </a>
+                            <a class="d-block lg:d-none" href="page-services.html#uc-menu-panel" data-uc-navbar-toggle-icon data-uc-toggle></a>
+                        </div>
+                    </div>-->
+                </div>
+            </nav>
+        </header>
+
+        <!-- Header end -->
+
+        <!-- Wrapper start -->
+        <div id="wrapper" class="wrap">
+
+            <!-- Header start -->
+            <div id="hero_header" class="hero-header section panel overflow-hidden h-100">
+                <div class="section-outer panel pt-9 lg:pt-10">
+                    <div class="container sm:max-w-xl xl:max-w-2xl">
+                        <div class="panel section-inner d-flex flex-column items-center justify-center gap-4" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 100});">
+                            <img src="../assets/images/common/stars.svg" alt="Icon" class="stars-01 d-inline-block position-absolute w-56px text-yellow-400 d-none xl:d-block z-9" data-uc-svg>
+                            <img src="../assets/images/common/stars.svg" alt="Icon" class="stars-02 d-inline-block position-absolute w-56px text-yellow-400 d-none xl:d-block z-9" data-uc-svg>
+                            <img src="../assets/images/common/shape-03.svg" alt="Icon" class="shape-04 position-absolute w-64px xl:w-80px text-yellow-400  d-none xl:d-block z-9">
+                            <img src="../assets/images/common/shape-04.svg" alt="Icon" class="shape-03 position-absolute w-80px xl:w-96px text-yellow-400 d-none xl:d-block z-9">
+                            <div class="panel">
+                                <div class="panel vstack justify-center gap-3 text-center max-w-950px">
+                                    <div class="panel vstack items-center">
+                                        <h1 class="display-4 md:display-2 lg:display-1 text-inherit">Tailored <span class="text-secondary">solutions</span> for sustainable growth</h1>
+                                        <p class="fs-4 text-inherit lg:w-800px">We provide strategic, data-driven solutions that streamline your operations, improve efficiency, and drive sustainable growth.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-content panel mt-4 sm:mt-5 xl:mt-6" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 100});">
+                            <div class="panel">
+                                <figure class="featured-image m-0 rounded ratio ratio-3x2 xl:ratio-1x1 rounded overflow-hidden xl:h-500px ">
+                                    <img class="media-cover image " src="../assets/images/template/cover-services.png" alt="Insignia">
+                                </figure>
+                            </div>
+                            <!--<div class="section-brands panel" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 100});">
+                                <div class="panel vstack items-center gap-4 text-center mt-6" data-anime="translateY: [80, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 450; delay: 650;">
+                                    <div class="brands panel">
+                                        <div class="row child-cols-4 sm:child-cols items-center justify-center text-center g-2 sm:g-6 xl:g-9">
+                                            <div>
+                                                <img class="text-primary dark:text-white" src="../assets/images/brands/brand-06.svg" alt="Allianz" data-uc-svg>
+                                            </div>
+                                            <div>
+                                                <img class="text-primary dark:text-white" src="../assets/images/brands/brand-07.svg" alt="Laborghini" data-uc-svg>
+                                            </div>
+                                            <div>
+                                                <img class="text-primary dark:text-white" src="../assets/images/brands/brand-08.svg" alt="Hoya" data-uc-svg>
+                                            </div>
+                                            <div>
+                                                <img class="text-primary dark:text-white" src="../assets/images/brands/brand-09.svg" alt="Hisense" data-uc-svg>
+                                            </div>
+                                            <div>
+                                                <img class="text-primary dark:text-white" src="../assets/images/brands/brand-10.svg" alt="Amg" data-uc-svg>
+                                            </div>
+                                        </div>
+                                    </div>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Header end -->
+
+            <!-- Section start -->
+            <div class="section-services panel overflow-hidden">
+                <div class="section-outer panel py-6 lg:py-8 xl:py-10">
+                    <div class="container sm:max-w-xl xl:max-w-2xl">
+                        <div class="section-inner panel" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 100});">
+                            <div class="panel vstack items-center gap-2 xl:gap-3 mb-3 sm:mb-8 xl:mb-9 sm:max-w-600px lg:max-w-900px mx-auto text-center">
+                                <h2 class="display-4 sm:display-3 lg:display-2 m-0">Your Partner for Reliable, <span class="text-secondary"> High-Quality</span> Services.</h2>
+                                <p class="fs-5">Scalable, secure, and reliable SaaS solutions to help your business grow and stay ahead.</p>
+                            </div>
+                        </div>
+                        <div class="section-content panel">
+                            <div class="vstack gap-0" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 700});">
+                                <div>
+                                    <div class="services-item panel py-4 sm:py-3 xl:py-4 border-top border-gray-50 dark:border-gray-700 border-top-0">
+                                        <div class="row child-cols justify-between items-center g-2 sm:g-4 lg:g-9">
+                                            <div class="col-12 sm:col-auto">
+                                                <div class="cstack w-56px h-56px lg:w-64px lg:h-64px xl:w-80px xl:h-80px rounded mb-1 sm:m-0 bg-primary dark:bg-gray-800">
+                                                    <img class="w-32px lg:w-48px" src="../assets/images/icons/services/big-data.svg" alt="icon">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <h3 class="h3 xl:h2 m-0">Cloud Infrastructure </h3>
+                                            </div>
+                                            <div class="col-12 sm:col-4">
+                                                <p class="fs-5 md:fs-6 lg:fs-5 xl:fs-4">Reliable, scalable, and secure hosting to keep your business running smoothly.</p>
+                                            </div>
+                                            <div class="col-12 sm:col-auto">
+                                                <a class='btn btn-lg p-0 mt-1 sm:m-0 h-100' href='page-service-detail.html'>
+                                                    <i class="icon icon-2 xl:icon-3 unicon-arrow-up-right dark:text-white"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="services-item panel py-4 sm:py-3 xl:py-4 border-top border-gray-50 dark:border-gray-700 ">
+                                        <div class="row child-cols justify-between items-center g-2 sm:g-4 lg:g-9">
+                                            <div class="col-12 sm:col-auto">
+                                                <div class="cstack w-56px h-56px lg:w-64px lg:h-64px xl:w-80px xl:h-80px rounded mb-1 sm:m-0 bg-primary dark:bg-gray-800">
+                                                    <img class="w-32px lg:w-48px" src="../assets/images/icons/services/dashboard-monitor.svg" alt="icon">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <h3 class="h3 xl:h2 m-0">Data Analytics & Insights</h3>
+                                            </div>
+                                            <div class="col-12 sm:col-4">
+                                                <p class="fs-5 md:fs-6 lg:fs-5 xl:fs-4">Transform data into clear, actionable insights with real-time dashboards.</p>
+                                            </div>
+                                            <div class="col-12 sm:col-auto">
+                                                <a class='btn btn-lg p-0 mt-1 sm:m-0 h-100' href='page-service-detail.html'>
+                                                    <i class="icon icon-2 xl:icon-3 unicon-arrow-up-right dark:text-white"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="services-item panel py-4 sm:py-3 xl:py-4 border-top border-gray-50 dark:border-gray-700 ">
+                                        <div class="row child-cols justify-between items-center g-2 sm:g-4 lg:g-9">
+                                            <div class="col-12 sm:col-auto">
+                                                <div class="cstack w-56px h-56px lg:w-64px lg:h-64px xl:w-80px xl:h-80px rounded mb-1 sm:m-0 bg-primary dark:bg-gray-800">
+                                                    <img class="w-32px lg:w-48px" src="../assets/images/icons/services/crowdfunding.svg" alt="icon">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <h3 class="h3 xl:h2 m-0">Team Collaboration Tools</h3>
+                                            </div>
+                                            <div class="col-12 sm:col-4">
+                                                <p class="fs-5 md:fs-6 lg:fs-5 xl:fs-4">Streamline teamwork with shared workspaces, chat, and task management.</p>
+                                            </div>
+                                            <div class="col-12 sm:col-auto">
+                                                <a class='btn btn-lg p-0 mt-1 sm:m-0 h-100' href='page-service-detail.html'>
+                                                    <i class="icon icon-2 xl:icon-3 unicon-arrow-up-right dark:text-white"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="services-item panel py-4 sm:py-3 xl:py-4 border-top border-gray-50 dark:border-gray-700 ">
+                                        <div class="row child-cols justify-between items-center g-2 sm:g-4 lg:g-9">
+                                            <div class="col-12 sm:col-auto">
+                                                <div class="cstack w-56px h-56px lg:w-64px lg:h-64px xl:w-80px xl:h-80px rounded mb-1 sm:m-0 bg-primary dark:bg-gray-800">
+                                                    <img class="w-32px lg:w-48px" src="../assets/images/icons/services/big-data-ai.svg" alt="icon">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <h3 class="h3 xl:h2 m-0">AI-Powered Automation</h3>
+                                            </div>
+                                            <div class="col-12 sm:col-4">
+                                                <p class="fs-5 md:fs-6 lg:fs-5 xl:fs-4">Automate repetitive tasks and optimize workflows with intelligent AI.</p>
+                                            </div>
+                                            <div class="col-12 sm:col-auto">
+                                                <a class='btn btn-lg p-0 mt-1 sm:m-0 h-100' href='page-service-detail.html'>
+                                                    <i class="icon icon-2 xl:icon-3 unicon-arrow-up-right dark:text-white"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="services-item panel py-4 sm:py-3 xl:py-4 border-top border-gray-50 dark:border-gray-700 ">
+                                        <div class="row child-cols justify-between items-center g-2 sm:g-4 lg:g-9">
+                                            <div class="col-12 sm:col-auto">
+                                                <div class="cstack w-56px h-56px lg:w-64px lg:h-64px xl:w-80px xl:h-80px rounded mb-1 sm:m-0 bg-primary dark:bg-gray-800">
+                                                    <img class="w-32px lg:w-48px" src="../assets/images/icons/services/internet-security.svg" alt="icon">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <h3 class="h3 xl:h2 m-0">Secure Payment </h3>
+                                            </div>
+                                            <div class="col-12 sm:col-4">
+                                                <p class="fs-5 md:fs-6 lg:fs-5 xl:fs-4">Simplify transactions with safe, multi-currency payment and billing solutions.</p>
+                                            </div>
+                                            <div class="col-12 sm:col-auto">
+                                                <a class='btn btn-lg p-0 mt-1 sm:m-0 h-100' href='page-service-detail.html'>
+                                                    <i class="icon icon-2 xl:icon-3 unicon-arrow-up-right dark:text-white"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="services-item panel py-4 sm:py-3 xl:py-4 border-top border-gray-50 dark:border-gray-700 ">
+                                        <div class="row child-cols justify-between items-center g-2 sm:g-4 lg:g-9">
+                                            <div class="col-12 sm:col-auto">
+                                                <div class="cstack w-56px h-56px lg:w-64px lg:h-64px xl:w-80px xl:h-80px rounded mb-1 sm:m-0 bg-primary dark:bg-gray-800">
+                                                    <img class="w-32px lg:w-48px" src="../assets/images/icons/services/megaphone.svg" alt="icon">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <h3 class="h3 xl:h2 m-0">Marketing Automation</h3>
+                                            </div>
+                                            <div class="col-12 sm:col-4">
+                                                <p class="fs-5 md:fs-6 lg:fs-5 xl:fs-4">Run smarter campaigns with automated workflows and performance tracking.</p>
+                                            </div>
+                                            <div class="col-12 sm:col-auto">
+                                                <a class='btn btn-lg p-0 mt-1 sm:m-0 h-100' href='page-service-detail.html'>
+                                                    <i class="icon icon-2 xl:icon-3 unicon-arrow-up-right dark:text-white"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div class="section-footer panel mt-3 lg:mt-6 xl:mt-8" data-anime="onview: -100; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500;">
+                            <a class='btn btn-text fs-4 xl:fs-3 border-bottom gap-1 xl:gap-2 mt-1 text-dark dark:text-white' href='page-services.html'>
+                                <span>View all services</span>
+                                <i class="icon unicon-arrow-right"></i>
+                            </a>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+
+            <!-- Section start -->
+            <!--<div id="section_projects" class="section-project section panel overflow-hidden swiper-parent">
+                <div class="section-outer panel pb-6 lg:pb-8 xl:pb-10">
+                    <div class="container max-w-2xl">
+                        <div class="section-inner panel">
+                            <div class="panel mb-3 sm:mb-8 xl:mb-9">
+                                <div class="row child-cols-12 g-4 sm:g-6 xl:g-9">
+                                    <div>
+                                        <div class="section-header panel hstack justify-between">
+                                            <div class="vstack items-start text-start" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 500});">
+                                                <h3 class="display-4 lg:display-2 m-0">Featured Projects</h3>
+                                            </div>
+                                            <div class="panel hstack items-end gap-1 xl:gap-2 sm:d-flex" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 800;">
+                                                <a href="page-services.html#" class="swiper-nav swiper-nav-prev btn bg-primary text-white dark:bg-white dark:text-primary w-48px h-48px xl:w-56px xl:h-56px rounded">
+                                                    <span class="icon-2 unicon-arrow-left"></span>
+                                                </a>
+                                                <a href="page-services.html#" class="swiper-nav swiper-nav-next btn bg-primary text-white dark:bg-white dark:text-primary w-48px h-48px xl:w-56px xl:h-56px rounded">
+                                                    <span class="icon-2 unicon-arrow-right"></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row child-cols-12 g-4 sm:g-6 xl:g-9">
+                                <div>
+                                    <div class="section-content panel expand-container ms-0">
+                                        <div class="swiper" data-uc-swiper="items: 1.80; gap: 16; loop: true; next: .swiper-nav-next; prev: .swiper-nav-prev;" data-uc-swiper-s="items: 3; gap: 24;" data-uc-swiper-m="items: 4; gap: 24;" data-uc-swiper-l="items: 5; gap: 32;">
+                                            <div class="swiper-wrapper" data-anime="onview: -100; targets: >*; translateX: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 600});">
+                                                <div class="swiper-slide">
+                                                    <div class="project-item panel rounded overflow-hidden text-white">
+                                                        <div class="position-cover bg-gradient-to-t from-black to-transparent opacity-60 z-99"></div>
+                                                        <figure class="featured-image m-0 rounded ratio ratio-1x1 h-300px uc-transition-toggle overflow-hidden">
+                                                            <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/about/img-01.png" alt="image">
+                                                        </figure>
+                                                        <header class="position-absolute start-0 bottom-0 z-999 hstack justify-between gap-2 w-100 p-2 lg:p-3">
+                                                            <div class="vstack gap-narrow">
+                                                                <h3 class="title h5 lg:h4 text-inherit m-0">Dreamy vision</h3>
+                                                                <p class="desc fs-6 lg:fs-5">Logo, user interface</p>
+                                                            </div>
+                                                            <a href="page-services.html#" class="link btn bg-white text-primary w-40px h-40px p-0 rounded-circle">
+                                                                <i class="icon unicon-arrow-up-right"></i>
+                                                            </a>
+                                                        </header>
+                                                        <a class='position-cover z-999' href='page-features.html'></a>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="project-item panel rounded overflow-hidden text-white">
+                                                        <div class="position-cover bg-gradient-to-t from-black to-transparent opacity-60 z-99"></div>
+                                                        <figure class="featured-image m-0 rounded ratio ratio-1x1 h-300px uc-transition-toggle overflow-hidden">
+                                                            <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/about/img-02.png" alt="image">
+                                                        </figure>
+                                                        <header class="position-absolute start-0 bottom-0 z-999 hstack justify-between gap-2 w-100 p-2 lg:p-3">
+                                                            <div class="vstack gap-narrow">
+                                                                <h3 class="title h5 lg:h4 text-inherit m-0">Energie brand</h3>
+                                                                <p class="desc fs-6 lg:fs-5">Logo, branding</p>
+                                                            </div>
+                                                            <a href="page-services.html#" class="link btn bg-white text-primary w-40px h-40px p-0 rounded-circle">
+                                                                <i class="icon unicon-arrow-up-right"></i>
+                                                            </a>
+                                                        </header>
+                                                        <a class='position-cover z-999' href='page-features.html'></a>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="project-item panel rounded overflow-hidden text-white">
+                                                        <div class="position-cover bg-gradient-to-t from-black to-transparent opacity-60 z-99"></div>
+                                                        <figure class="featured-image m-0 rounded ratio ratio-1x1 h-300px uc-transition-toggle overflow-hidden">
+                                                            <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/about/img-03.png" alt="image">
+                                                        </figure>
+                                                        <header class="position-absolute start-0 bottom-0 z-999 hstack justify-between gap-2 w-100 p-2 lg:p-3">
+                                                            <div class="vstack gap-narrow">
+                                                                <h3 class="title h5 lg:h4 text-inherit m-0">Bottle company</h3>
+                                                                <p class="desc fs-6 lg:fs-5">Marketing</p>
+                                                            </div>
+                                                            <a href="page-services.html#" class="link btn bg-white text-primary w-40px h-40px p-0 rounded-circle">
+                                                                <i class="icon unicon-arrow-up-right"></i>
+                                                            </a>
+                                                        </header>
+                                                        <a class='position-cover z-999' href='page-features.html'></a>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="project-item panel rounded overflow-hidden text-white">
+                                                        <div class="position-cover bg-gradient-to-t from-black to-transparent opacity-60 z-99"></div>
+                                                        <figure class="featured-image m-0 rounded ratio ratio-1x1 h-300px uc-transition-toggle overflow-hidden">
+                                                            <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/about/img-04.png" alt="image">
+                                                        </figure>
+                                                        <header class="position-absolute start-0 bottom-0 z-999 hstack justify-between gap-2 w-100 p-2 lg:p-3">
+                                                            <div class="vstack gap-narrow">
+                                                                <h3 class="title h5 lg:h4 text-inherit m-0">Strategy planing</h3>
+                                                                <p class="desc fs-6 lg:fs-5">E-commerce</p>
+                                                            </div>
+                                                            <a href="page-services.html#" class="link btn bg-white text-primary w-40px h-40px p-0 rounded-circle">
+                                                                <i class="icon unicon-arrow-up-right"></i>
+                                                            </a>
+                                                        </header>
+                                                        <a class='position-cover z-999' href='page-features.html'></a>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="project-item panel rounded overflow-hidden text-white">
+                                                        <div class="position-cover bg-gradient-to-t from-black to-transparent opacity-60 z-99"></div>
+                                                        <figure class="featured-image m-0 rounded ratio ratio-1x1 h-300px uc-transition-toggle overflow-hidden">
+                                                            <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/about/about-01.png" alt="image">
+                                                        </figure>
+                                                        <header class="position-absolute start-0 bottom-0 z-999 hstack justify-between gap-2 w-100 p-2 lg:p-3">
+                                                            <div class="vstack gap-narrow">
+                                                                <h3 class="title h5 lg:h4 text-inherit m-0">Digital Transformation</h3>
+                                                                <p class="desc fs-6 lg:fs-5">Finance, Analytics</p>
+                                                            </div>
+                                                            <a href="page-services.html#" class="link btn bg-white text-primary w-40px h-40px p-0 rounded-circle">
+                                                                <i class="icon unicon-arrow-up-right"></i>
+                                                            </a>
+                                                        </header>
+                                                        <a class='position-cover z-999' href='page-features.html'></a>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="project-item panel rounded overflow-hidden text-white">
+                                                        <div class="position-cover bg-gradient-to-t from-black to-transparent opacity-60 z-99"></div>
+                                                        <figure class="featured-image m-0 rounded ratio ratio-1x1 h-300px uc-transition-toggle overflow-hidden">
+                                                            <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/about/about-02.png" alt="image">
+                                                        </figure>
+                                                        <header class="position-absolute start-0 bottom-0 z-999 hstack justify-between gap-2 w-100 p-2 lg:p-3">
+                                                            <div class="vstack gap-narrow">
+                                                                <h3 class="title h5 lg:h4 text-inherit m-0">Business Process</h3>
+                                                                <p class="desc fs-6 lg:fs-5">Security, branding</p>
+                                                            </div>
+                                                            <a href="page-services.html#" class="link btn bg-white text-primary w-40px h-40px p-0 rounded-circle">
+                                                                <i class="icon unicon-arrow-up-right"></i>
+                                                            </a>
+                                                        </header>
+                                                        <a class='position-cover z-999' href='page-features.html'></a>
+                                                    </div>
+                                                </div>-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section End -->
+
+            <!-- Cta Start -->
+            <!--<div id="section_workflow" class="section-workflow section panel bg-primary-25 dark:bg-gray-900 overflow-hidden">
+                <img src="../assets/images/common/background-05.png" alt="background" class="background position-absolute z-9 opacity-70 dark:opacity-20 mask-x-3">
+                <div class="position-absolute top-0 start-0 w-64px sm:w-128px lg:80px xl:w-fit"><img src="../assets/images/common/rectangle-02.svg" alt="Rectangle Insignia"></div>
+                <div class="position-absolute bottom-0 end-0 w-64px sm:w-128px lg:80px xl:w-fit"><img src="../assets/images/common/rectangle-03.svg" alt="Rectangle Insignia"></div>
+                <div class="section-outer panel py-8 xl:py-10" data-anime="onview: -100; translateY: [24, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 450; delay: 200;">
+                    <div class="container max-w-2xl">
+                        <div class="section-inner panel">
+                            <div class="image-cover-01 position-absolute w-80px lg:w-150px d-none sm:d-block md:d-none xl:d-block"><img src="../assets/images/template/cta-01.png" alt="Image Insignia"></div>
+                            <div class="image-cover-02 position-absolute w-80px lg:w-150px d-none sm:d-block md:d-none xl:d-block"><img src="../assets/images/template/cta-02.png" alt="Image Insignia"></div>
+                            <div class="image-cover-03 position-absolute w-80px lg:w-150px d-none sm:d-block md:d-none xl:d-block"><img src="../assets/images/template/cta-03.png" alt="Image Insignia"></div>
+                            <div class="image-cover-04 position-absolute w-80px lg:w-150px d-none sm:d-block md:d-none xl:d-block"><img src="../assets/images/template/cta-04.png" alt="Image Insignia"></div>
+                            <div class="panel vstack items-center gap-2 lg:gap-3 max-w-500px sm:max-w-600px lg:max-w-800px mx-auto text-center z-99" data-anime="onview:-100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 450; delay: anime.stagger(100, {start: 200});">
+                                <h2 class="display-4 sm:display-3 lg:display-2 m-0">Try Our Platform and Transform Your Workflow with Insingnia</h2>
+                                <p class="fs-6 sm:fs-4">Success begins with the right strategy. At Insignia, we help businesses streamline processes, enhance efficiency, and reach their full potential.</p>
+                                <div class="panel mt-2">
+                                    <div class="panel cstack gap-2">
+                                        <a class='btn btn-md bg-primary dark:bg-secondary border-0 text-white dark:text-primary text-none d-inline-flex' href='request-demo.html'>Book a demo
+                                            <i class="icon lg:icon-1 unicon unicon-arrow-right"></i>
+                                        </a>
+                                        <a class='btn btn-md btn-outline-primary dark:text-white dark:border-secondary dark:hover:bg-secondary dark:hover:text-primary text-primary hover:text-white text-none d-inline-flex' href='page-pricing.html'>View pricing
+                                            <i class="icon lg:icon-1 unicon unicon-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                    <div class="panel mt-2">
+                                        <p class="fs-7">No credit card required, 30-day money back guarantee.</p>
+                                    </div>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cta End -->
+
+            <!-- Section start -->
+            <!--<div id="section_clients" class="section-clients section panel overflow-hidden">
+                <div class="section-outer panel py-6 lg:py-8 xl:py-10">
+                    <div class="container sm:max-w-xl xl:max-w-2xl">
+                        <div class="section-inner panel" data-anime="onview: -200; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 200});">
+                            <div class="panel vstack items-center gap-2 xl:gap-3 mb-3 sm:mb-8 xl:mb-9 sm:max-w-600px xl:max-w-700px mx-auto text-center">
+                                <h2 class="display-4 sm:display-3 xl:display-2 m-0 text-inherit">Why our clients believe we’re the best.</h2>
+                            </div>
+                        </div>
+                        <div class="section-content panel">
+                            <div class="panel rounded border border-1 border-gray-100 dark:border-gray-800">
+                                <div class="panel p-3 lg:p-5 xl:p-6 main-companies-switcher uc-switcher overflow-hidden">
+                                    <div class="row g-4 xl:g-8 items-center">
+                                        <div class="lg:col-5">
+                                            <div class="panel" data-uc-lightbox="video-autoplay: true;">
+                                                <figure class="featured-image m-0 rounded ratio ratio-1x1 rounded overflow-hidden ">
+                                                    <img class="media-cover image " src="../assets/images/clients/client-01.png" alt="Insignia">
+                                                </figure>
+                                                <a class="cstack text-none position-absolute top-50 start-50 translate-middle bg-secondary text-primary w-64px h-64px sm:w-80px sm:h-80px rounded-circle shadow-md" href="https://unistudio.co/html/insignia/assets/images/media/insignia-home-3.webm" data-caption="Easy numbers for insignia team." data-attrs="width: 640; height: 480;">
+                                                    <i class="icon icon-2 sm:icon-3 unicon-play-filled-alt"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="lg:col-7">
+                                            <div class="panel vstack gap-3 xl:gap-4">
+                                                <img class="text-primary dark:text-secondary w-150px" src="../assets/images/brands/logo-01.svg" alt="Brand insignia" data-uc-svg>
+                                                <p class="fs-4 xl:fs-2">Insignia proactively manages our SaaS contracts and reporting, making our lives so much easier. Compared to similar products we've used in the past, the customer experience with Insignia has been!</p>
+                                                <div class="panel vstack sm:hstack sm:items-center space-between gap-2 g sm:gap-0">
+                                                    <div class="panel vstack gap-1">
+                                                        <h6 class="display-6 m-0">Watson Rodriguez</h6>
+                                                        <span class="fs-6">Head of Growth - At Nexify</span>
+                                                    </div>
+                                                    <img class="text-yellow-400 w-150px" src="../assets/images/common/stars-rating.svg" alt="Rating Insignia" data-uc-svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row g-4 xl:g-8 items-center">
+                                        <div class="lg:col-5">
+                                            <div class="panel" data-uc-lightbox="video-autoplay: true;">
+                                                <figure class="featured-image m-0 rounded ratio ratio-1x1 rounded overflow-hidden ">
+                                                    <img class="media-cover image " src="../assets/images/clients/client-02.png" alt="Insignia">
+                                                </figure>
+                                                <a class="cstack text-none position-absolute top-50 start-50 translate-middle bg-secondary text-primary w-64px h-64px sm:w-80px sm:h-80px rounded-circle shadow-md" href="https://unistudio.co/html/insignia/assets/images/media/insignia-home-3.webm" data-caption="Easy numbers for insignia team." data-attrs="width: 640; height: 480;">
+                                                    <i class="icon icon-2 sm:icon-3 unicon-play-filled-alt"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="lg:col-7">
+                                            <div class="panel vstack gap-3 xl:gap-4">
+                                                <img class="text-primary dark:text-secondary w-150px" src="../assets/images/brands/logo-02.svg" alt="Brand insignia" data-uc-svg>
+                                                <p class="fs-4 xl:fs-2">Insignia has completely streamlined our SaaS management process, helping us stay organized and efficient. Compared to other tools we've used before, the experience with Insignia has been exceptional!</p>
+                                                <div class="panel vstack sm:hstack sm:items-center space-between gap-2 g sm:gap-0">
+                                                    <div class="panel vstack gap-1">
+                                                        <h6 class="display-6 m-0">James Alexander</h6>
+                                                        <span class="fs-6">Operation Director - At Saphony</span>
+                                                    </div>
+                                                    <img class="text-yellow-400 w-150px" src="../assets/images/common/stars-rating.svg" alt="Rating Insignia" data-uc-svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row g-4 xl:g-8 items-center">
+                                        <div class="lg:col-5">
+                                            <div class="panel" data-uc-lightbox="video-autoplay: true;">
+                                                <figure class="featured-image m-0 rounded ratio ratio-1x1 rounded overflow-hidden ">
+                                                    <img class="media-cover image " src="../assets/images/clients/client-03.png" alt="Insignia">
+                                                </figure>
+                                                <a class="cstack text-none position-absolute top-50 start-50 translate-middle bg-secondary text-primary w-64px h-64px sm:w-80px sm:h-80px rounded-circle shadow-md" href="https://unistudio.co/html/insignia/assets/images/media/insignia-home-3.webm" data-caption="Easy numbers for insignia team." data-attrs="width: 640; height: 480;">
+                                                    <i class="icon icon-2 sm:icon-3 unicon-play-filled-alt"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="lg:col-7">
+                                            <div class="panel vstack gap-3 xl:gap-4">
+                                                <img class="text-primary dark:text-secondary w-150px" src="../assets/images/brands/logo-03.svg" alt="Brand insignia" data-uc-svg>
+                                                <p class="fs-4 xl:fs-2">Managing SaaS contracts used to be complex, but Insignia made everything smooth and effortless. Compared to other solutions we’ve tried before, our experience with Insignia has been remarkable!</p>
+                                                <div class="panel vstack sm:hstack sm:items-center space-between gap-2 g sm:gap-0">
+                                                    <div class="panel vstack gap-1">
+                                                        <h6 class="display-6 m-0">James Adkinson</h6>
+                                                        <span class="fs-6">Web Developer, Jominya</span>
+                                                    </div>
+                                                    <img class="text-yellow-400 w-150px" src="../assets/images/common/stars-rating.svg" alt="Rating Insignia" data-uc-svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row g-4 xl:g-8 items-center">
+                                        <div class="lg:col-5">
+                                            <div class="panel" data-uc-lightbox="video-autoplay: true;">
+                                                <figure class="featured-image m-0 rounded ratio ratio-1x1 rounded overflow-hidden ">
+                                                    <img class="media-cover image " src="../assets/images/clients/client-04.png" alt="Insignia">
+                                                </figure>
+                                                <a class="cstack text-none position-absolute top-50 start-50 translate-middle bg-secondary text-primary w-64px h-64px sm:w-80px sm:h-80px rounded-circle shadow-md" href="https://unistudio.co/html/insignia/assets/images/media/insignia-home-3.webm" data-caption="Easy numbers for insignia team." data-attrs="width: 640; height: 480;">
+                                                    <i class="icon icon-2 sm:icon-3 unicon-play-filled-alt"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="lg:col-7">
+                                            <div class="panel vstack gap-3 xl:gap-4">
+                                                <img class="text-primary dark:text-secondary w-150px" src="../assets/images/brands/logo-04.svg" alt="Brand insignia" data-uc-svg>
+                                                <p class="fs-4 xl:fs-2">With Insignia, tracking and optimizing our SaaS tools has never been easier. Compared to previous platforms we relied on, the experience with Insignia has been fantastic!</p>
+                                                <div class="panel vstack sm:hstack sm:items-center space-between gap-2 g sm:gap-0">
+                                                    <div class="panel vstack gap-1">
+                                                        <h6 class="display-6 m-0">John Alvarez</h6>
+                                                        <span class="fs-6">Ceo, At Sendyx</span>
+                                                    </div>
+                                                    <img class="text-yellow-400 w-150px" src="../assets/images/common/stars-rating.svg" alt="Rating Insignia" data-uc-svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row g-4 xl:g-8 items-center">
+                                        <div class="lg:col-5">
+                                            <div class="panel" data-uc-lightbox="video-autoplay: true;">
+                                                <figure class="featured-image m-0 rounded ratio ratio-1x1 rounded overflow-hidden ">
+                                                    <img class="media-cover image " src="../assets/images/clients/client-05.png" alt="Insignia">
+                                                </figure>
+                                                <a class="cstack text-none position-absolute top-50 start-50 translate-middle bg-secondary text-primary w-64px h-64px sm:w-80px sm:h-80px rounded-circle shadow-md" href="https://unistudio.co/html/insignia/assets/images/media/insignia-home-3.webm" data-caption="Easy numbers for insignia team." data-attrs="width: 640; height: 480;">
+                                                    <i class="icon icon-2 sm:icon-3 unicon-play-filled-alt"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="lg:col-7">
+                                            <div class="panel vstack gap-3 xl:gap-4">
+                                                <img class="text-primary dark:text-secondary w-150px" src="../assets/images/brands/logo-05.svg" alt="Brand insignia" data-uc-svg>
+                                                <p class="fs-4 xl:fs-2">Insignia takes the stress out of SaaS reporting and contract management for our team. Compared to similar services we’ve used before, the experience with Insignia has been incredible!</p>
+                                                <div class="panel vstack sm:hstack sm:items-center space-between gap-2 g sm:gap-0">
+                                                    <div class="panel vstack gap-1">
+                                                        <h6 class="display-6 m-0">Blake Riley</h6>
+                                                        <span class="fs-6">Web Developer, Sisyphus</span>
+                                                    </div>
+                                                    <img class="text-yellow-400 w-150px" src="../assets/images/common/stars-rating.svg" alt="Rating Insignia" data-uc-svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel border-top border-1">
+                                    <ul class="main-companies-nav hstack justify-between text-center" data-uc-switcher="connect: .main-companies-switcher; animation: uc-animation-fade;">
+                                        <li class="rounded-0 border-end py-3"><a class="text-none" href="page-services.html#"><img class="sm:w-100px xl:w-150px" src="../assets/images/brands/logo-01.svg" alt="Company Logo" data-uc-svg></a></li>
+                                        <li class="rounded-0 border-end py-3"><a class="text-none" href="page-services.html#"><img class="sm:w-100px xl:w-150px" src="../assets/images/brands/logo-02.svg" alt="Company Logo" data-uc-svg></a></li>
+                                        <li class="rounded-0 border-end py-3"><a class="text-none" href="page-services.html#"><img class="sm:w-100px xl:w-150px" src="../assets/images/brands/logo-03.svg" alt="Company Logo" data-uc-svg></a></li>
+                                        <li class="rounded-0 border-end py-3"><a class="text-none" href="page-services.html#"><img class="sm:w-100px xl:w-150px" src="../assets/images/brands/logo-04.svg" alt="Company Logo" data-uc-svg></a></li>
+                                        <li class="rounded py-3"><a class="text-none" href="page-services.html#"><img class="w-150px" src="../assets/images/brands/logo-05.svg" alt="Company Logo" data-uc-svg></a></li>
+                                    </ul>
+                                </div>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+
+            <!-- Section start -->
+            <div id="section_team" class="section-team section panel overflow-hidden">
+                <div class="section-outer panel">
+                    <div class="container sm:max-w-xl xl:max-w-2xl">
+                        <div class="section-inner panel" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 100});">
+                            <div class="panel vstack items-center gap-2 xl:gap-3 mb-3 sm:mb-8 xl:mb-9 sm:max-w-600px lg:max-w-950px mx-auto text-center">
+                                <h2 class="display-4 sm:display-3 lg:display-2 m-0">An <span class="text-secondary">expert</span> team behind</h2>
+                            </div>
+                        </div>
+                        <div class="panel section-content" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 100});">
+                            <div class="row sm:child-cols-6 lg:child-cols-3 items-center justify-center g-4">
+                                <div>
+                                    <div class="panel vstack items-center gap-3">
+                                        <figure class="featured-image m-0 rounded ratio ratio-1x1 overflow-hidden rounded-bottom-0 ">
+                                            <img class="media-cover image " src="../assets/images/avatars/team-01.png" alt="Insignia">
+                                        </figure>
+                                        <div class="panel vstack gap-1 text-center">
+                                            <a class='text-none' href='page-team.html'>
+                                                <h4 class="display-5 m-0">Max Halloway</h4>
+                                            </a>
+                                            <p class="fs-4">Insignia, Product Manager</p>
+                                        </div>
+                                        <!--<div class="panel mt-2">
+                                            <ul class="hstack gap-2 p-0" style="list-style: none;">
+                                                <li><a class="text-primary dark:text-secondary rounded text-none" href="page-services.html#"><i class="icon icon-3 unicon-logo-dribbble"></i></a></li>
+                                                <li><a class="text-primary dark:text-secondary rounded text-none" href="page-services.html#"><i class="icon icon-3 unicon-logo-x-filled"></i></a></li>
+                                                <li><a class="text-primary dark:text-secondary rounded text-none" href="page-services.html#"><i class="icon icon-3 unicon-logo-instagram"></i></a></li>
+                                            </ul>
+                                        </div>-->
+                                    </div>
+                                </div>
+                                <div class="lg:pt-6 xl:pt-8">
+                                    <div class="panel vstack items-center gap-3">
+                                        <figure class="featured-image m-0 rounded ratio ratio-1x1 overflow-hidden rounded-bottom-0 ">
+                                            <img class="media-cover image " src="../assets/images/avatars/team-02.png" alt="Insignia">
+                                        </figure>
+                                        <div class="panel vstack gap-1 text-center">
+                                            <a class='text-none' href='page-team.html'>
+                                                <h4 class="display-5 m-0">Ethan Carter</h4>
+                                            </a>
+                                            <p class="fs-4">Insignia, Project Manager</p>
+                                        </div>
+                                        <!--<div class="panel mt-2">
+                                            <ul class="hstack gap-2 p-0" style="list-style: none;">
+                                                <li><a class="text-primary dark:text-secondary rounded text-none" href="page-services.html#"><i class="icon icon-3 unicon-logo-dribbble"></i></a></li>
+                                                <li><a class="text-primary dark:text-secondary rounded text-none" href="page-services.html#"><i class="icon icon-3 unicon-logo-x-filled"></i></a></li>
+                                                <li><a class="text-primary dark:text-secondary rounded text-none" href="page-services.html#"><i class="icon icon-3 unicon-logo-instagram"></i></a></li>
+                                            </ul>
+                                        </div>-->
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="panel vstack items-center gap-3">
+                                        <figure class="featured-image m-0 rounded ratio ratio-1x1 overflow-hidden rounded-bottom-0 ">
+                                            <img class="media-cover image " src="../assets/images/avatars/team-03.png" alt="Insignia">
+                                        </figure>
+                                        <div class="panel vstack gap-1 text-center">
+                                            <a class='text-none' href='page-team.html'>
+                                                <h4 class="display-5 m-0">Daniel Roberts</h4>
+                                            </a>
+                                            <p class="fs-4">Insignia, Marketing Manager</p>
+                                        </div>
+                                        <!--<div class="panel mt-2">
+                                            <ul class="hstack gap-2 p-0" style="list-style: none;">
+                                                <li><a class="text-primary dark:text-secondary rounded text-none" href="page-services.html#"><i class="icon icon-3 unicon-logo-dribbble"></i></a></li>
+                                                <li><a class="text-primary dark:text-secondary rounded text-none" href="page-services.html#"><i class="icon icon-3 unicon-logo-x-filled"></i></a></li>
+                                                <li><a class="text-primary dark:text-secondary rounded text-none" href="page-services.html#"><i class="icon icon-3 unicon-logo-instagram"></i></a></li>
+                                            </ul>
+                                        </div>-->
+                                    </div>
+                                </div>
+                                <div class="lg:pt-6 xl:pt-8">
+                                    <div class="panel vstack items-center gap-3">
+                                        <figure class="featured-image m-0 rounded ratio ratio-1x1 overflow-hidden rounded-bottom-0 ">
+                                            <img class="media-cover image " src="../assets/images/avatars/team-04.png" alt="Insignia">
+                                        </figure>
+                                        <div class="panel vstack gap-1 text-center">
+                                            <a class='text-none' href='page-team.html'>
+                                                <h4 class="display-5 m-0">Nathan Clarke</h4>
+                                            </a>
+                                            <p class="fs-4">Insignia, Sales Manager</p>
+                                        </div>
+                                        <!--<div class="panel mt-2">
+                                            <ul class="hstack gap-2 p-0" style="list-style: none;">
+                                                <li><a class="text-primary dark:text-secondary rounded text-none" href="page-services.html#"><i class="icon icon-3 unicon-logo-dribbble"></i></a></li>
+                                                <li><a class="text-primary dark:text-secondary rounded text-none" href="page-services.html#"><i class="icon icon-3 unicon-logo-x-filled"></i></a></li>
+                                                <li><a class="text-primary dark:text-secondary rounded text-none" href="page-services.html#"><i class="icon icon-3 unicon-logo-instagram"></i></a></li>
+                                            </ul>
+                                        </div>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+
+            <!-- Section start -->
+            <div id="section_faq" class="section-faq section panel overflow-hidden">
+                <div class="section-outer panel py-6 lg:py-8 xl:py-10">
+                    <div class="container sm:max-w-xl xl:max-w-2xl">
+                        <div class="section-inner panel" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 100});">
+                            <div class="panel vstack gap-2 sm:w-500px lg:w-900px m-auto text-center">
+                                <h1 class="display-4 lg:display-2 m-0">Frequently asked questions</h1>
+                                <p class="fs-5 lg:fs-4">Everything you need to know about Insignia and our software.</p>
+                            </div>
+                        </div>
+                        <div class="section-content panel mt-6 lg:mt-7 xl:mt-9" data-anime="onview:-100; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: 400;">
+                            <div class="row child-cols-12 g-3 xl:g-4 col-match">
+                                <div class="col sm:col-7 md:col-12 lg:col">
+                                    <ul class="gap-2 uc-accordion mb-0" data-uc-accordion="collapsible: false">
+                                        <li class="panel p-2 md:p-4 bg-primary-25 dark:bg-gray-900 rounded">
+                                            <a class="uc-accordion-title h6 md:h5 lg:display-6 fw-bold pe-4" href="page-services.html#" id="uc-accordion-9" role="button" aria-controls="uc-accordion-10" aria-expanded="false" aria-disabled="false">1. How can Insignia’s App benefit my team ?</a>
+                                            <div class="uc-accordion-content" hidden="" id="uc-accordion-10" role="region" aria-labelledby="uc-accordion-9">
+                                                <p>Insignia’s App helps your team work smarter by streamlining communication, automating daily tasks, and providing real-time insights. This allows your team to save time, reduce errors, and stay more focused on achieving goals.</p>
+                                            </div>
+                                        </li>
+                                        <li class="panel p-2 md:p-4 bg-primary-25 dark:bg-gray-900 rounded">
+                                            <a class="uc-accordion-title h6 md:h5 lg:display-6 fw-bold pe-4" href="page-services.html#" id="uc-accordion-11" role="button" aria-controls="uc-accordion-12" aria-expanded="false" aria-disabled="false">2. What is your data security and compliance protocol ?</a>
+                                            <div class="uc-accordion-content" hidden="" id="uc-accordion-12" role="region" aria-labelledby="uc-accordion-11">
+                                                <p>We prioritize data protection with end-to-end encryption, strict access controls, and regular security audits. Insignia also complies with leading regulations such as GDPR to ensure your information remains safe and private.</p>
+                                            </div>
+                                        </li>
+                                        <li class="panel p-2 md:p-4 bg-primary-25 dark:bg-gray-900 rounded">
+                                            <a class="uc-accordion-title h6 md:h5 lg:display-6 fw-bold pe-4" href="page-services.html#" id="uc-accordion-13" role="button" aria-controls="uc-accordion-14" aria-expanded="false" aria-disabled="false">3. How do you handle customer support and onboarding?</a>
+                                            <div class="uc-accordion-content" hidden="" id="uc-accordion-14" role="region" aria-labelledby="uc-accordion-13">
+                                                <p>Our onboarding process is designed to be quick and seamless, with step-by-step guidance to get you started. Plus, our support team is available 24/7 through email, chat, and phone to answer questions and resolve issues whenever needed</p>
+                                            </div>
+                                        </li>
+                                        <li class="panel p-2 md:p-4 bg-primary-25 dark:bg-gray-900 rounded">
+                                            <a class="uc-accordion-title h6 md:h5 lg:display-6 fw-bold pe-4" href="page-services.html#" id="uc-accordion-15" role="button" aria-controls="uc-accordion-16" aria-expanded="false" aria-disabled="false">5. What happens on data if i decide to cancel my subscription ?</a>
+                                            <div class="uc-accordion-content" hidden="" id="uc-accordion-16" role="region" aria-labelledby="uc-accordion-15">
+                                                <p>Yes, the platform is flexible and adaptable. You can customize dashboards, workflows, and integrations so the system works the way your team does, ensuring a smooth fit with your operations.</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 sm:col-5 md:col-12 lg:col-4">
+                                    <div class="panel p-4 xl:p-6 rounded text-center bg-primary-25 dark:bg-gray-900 h-100">
+                                        <div class="vstack items-center gap-3 xl:gap-5 h-100">
+                                            <div class="h-100 vstack items-center justify-center gap-2">
+                                                <i class="icon-4 xl:icon-5 unicon-chat text-primary dark:text-secondary"></i>
+                                                <h3 class="display-6 xl:display-5 my-2">Do you have a different question?</h3>
+                                                <p class="fs-6 xl:fs-5">Find quick answers to your questions in our FAQs.</p>
+                                                <div>
+                                                    <a class='btn btn-md bg-primary text-white dark:bg-secondary dark:text-primary' href='page-faq.html'>
+                                                        <span>Find your answers here</span>
+                                                        <i class="icon-2 unicon-copy-file"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+
+            <!-- Section start -->
+            <!--<div id="section_blog" class="section-blog section panel overflow-hidden">
+                <div class="section-outer panel pb-6 lg:pb-8 xl:pb-10">
+                    <div class="container sm:max-w-xl xl:max-w-2xl">
+                        <div class="section-inner panel" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 100});">
+                            <div class="panel vstack items-center gap-2 xl:gap-3 mb-3 sm:mb-8 xl:mb-9 sm:max-w-600px xl:max-w-800px mx-auto text-center">
+                                <h2 class="display-4 sm:display-3 xl:display-2 m-0">Check out the <span class="text-secondary">blogs</span> we have prepared for you</h2>
+                            </div>
+                        </div>
+                        <div class="section-content panel" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 100});">
+                            <div class="row child-cols-12 sm:child-cols-4 md:child-cols-6 lg:child-cols-4 justify-center g-4 sm:g-2 lg:g-3 xl:g-4 col-match" data-anime="onview: -100; targets: >*; translateY: [48, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 500; delay: anime.stagger(100, {start: 700});">
+                                <div>
+                                    <div class="blog-item panel vstack gap-3 sm:gap-2 lg:gap-3 p-2 rounded bg-primary-25 dark:bg-gray-900">
+                                        <div class="panel">
+                                            <figure class="featured-image m-0 rounded ratio ratio-16x9 rounded uc-transition-toggle overflow-hidden">
+                                                <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/blog/img-01.jpg" alt="image">
+                                            </figure>
+                                            <a class='position-cover' href='blog-details.html'></a>
+                                        </div>
+                                        <div class="panel vstack items-start gap-2">
+                                            <span class="py-narrow px-2 fw-semibold bg-primary rounded cstack text-white w-fit dark:bg-secondary dark:text-primary">Design</span>
+                                            <h3 class="title h3 m-0">
+                                                <a class='text-none' href='blog-details.html'>The Smart Buyer’s SaaS Guide</a>
+                                            </h3>
+                                            <p class="fs-7 sm:fs-6 xl:fs-5">Avoid overpaying and underperforming tools with data-driven selection strategies that work.</p>
+                                            <a class='btn btn-text fs-4 sm:fs-6 xl:fs-5 border-bottom dark:border-white gap-1 mt-1 text-primary dark:text-white' href='blog-details.html'>
+                                                <span>Read More</span>
+                                                <i class="icon unicon-arrow-up-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="blog-item panel vstack gap-3 sm:gap-2 lg:gap-3 p-2 rounded bg-primary-25 dark:bg-gray-900">
+                                        <div class="panel">
+                                            <figure class="featured-image m-0 rounded ratio ratio-16x9 rounded uc-transition-toggle overflow-hidden">
+                                                <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/blog/img-02.jpg" alt="image">
+                                            </figure>
+                                            <a class='position-cover' href='blog-details.html'></a>
+                                        </div>
+                                        <div class="panel vstack items-start gap-2">
+                                            <span class="py-narrow px-2 fw-semibold bg-primary rounded cstack text-white w-fit dark:bg-secondary dark:text-primary">Analytics</span>
+                                            <h3 class="title h3 m-0">
+                                                <a class='text-none' href='blog-details.html'>No-Code Disrupts Traditional SaaS</a>
+                                            </h3>
+                                            <p class="fs-7 sm:fs-6 xl:fs-5">Democratizing software creation: How no-code platforms are rewriting the rules of enterprise tech.</p>
+                                            <a class='btn btn-text fs-4 sm:fs-6 xl:fs-5 border-bottom dark:border-white gap-1 mt-1 text-primary dark:text-white' href='blog-details.html'>
+                                                <span>Read More</span>
+                                                <i class="icon unicon-arrow-up-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="blog-item panel vstack gap-3 sm:gap-2 lg:gap-3 p-2 rounded bg-primary-25 dark:bg-gray-900">
+                                        <div class="panel">
+                                            <figure class="featured-image m-0 rounded ratio ratio-16x9 rounded uc-transition-toggle overflow-hidden">
+                                                <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/blog/img-03.jpg" alt="image">
+                                            </figure>
+                                            <a class='position-cover' href='blog-details.html'></a>
+                                        </div>
+                                        <div class="panel vstack items-start gap-2">
+                                            <span class="py-narrow px-2 fw-semibold bg-primary rounded cstack text-white w-fit dark:bg-secondary dark:text-primary">Products</span>
+                                            <h3 class="title h3 m-0">
+                                                <a class='text-none' href='blog-details.html'>Collaboration Tools Get Smarter</a>
+                                            </h3>
+                                            <p class="fs-7 sm:fs-6 xl:fs-5">Context-aware assistants and smart notifications are transforming how teams communicate and execute projects.</p>
+                                            <a class='btn btn-text fs-4 sm:fs-6 xl:fs-5 border-bottom dark:border-white gap-1 mt-1 text-primary dark:text-white' href='blog-details.html'>
+                                                <span>Read More</span>
+                                                <i class="icon unicon-arrow-up-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel mt-6 vstack items-center">
+                                <a class='btn btn-md bg-primary text-white dark:bg-secondary dark:text-primary border-0 text-none d-inline-flex w-fit' href='blog.html'>See more blogs
+                                    <i class="icon lg:icon-1 unicon unicon-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+
+            <!-- Cta Start -->
+            <!--<div id="section_cta" class="section-cta section panel">
+                <div class="section-outer panel pb-6 lg:pb-8 xl:pb-10" data-anime="onview: -100; translateY: [24, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 450; delay: 200;">
+                    <div class="container max-w-2xl">
+                        <div class="section-inner panel">
+                            <div class="cta-item panel px-4 py-6 sm:p-8 lg:p-9 rounded overflow-hidden bg-primary dark:bg-gray-900">
+                                <div class="position-absolute top-0 start-0 w-64px sm:w-fit lg:w-fit d-none sm:d-block"><img src="../assets/images/common/rectangle-cta-01.svg" alt="Rectangle Insignia"></div>
+                                <div class="position-absolute bottom-0 end-0 w-64px sm:w-fit lg:w-fit d-none sm:d-block"><img src="../assets/images/common/rectangle-cta-02.svg" alt="Rectangle Insignia"></div>
+                                <div class="position-absolute sm:w-32px lg:w-48px d-none sm:d-block md:d-none lg:d-block" style="top: 12%; right: 42%;"><img src="../assets/images/common/shape-02.svg" alt="Shape Insignia"></div>
+                                <div class="position-absolute w-100px md:w-56px lg:w-80px d-none sm:d-block md:d-none lg:d-block" style="left: 30%; bottom: 8%;"><img src="../assets/images/common/shape-01.svg" alt="Shape Insignia"></div>
+                                <img src="../assets/images/common/cubes-02.svg" alt="Icon" class="cubes position-absolute bottom-0 start-0 w-48px lg:w-80px text-secondary d-none sm:d-block z-999" data-uc-svg>
+                                <img src="../assets/images/common/cubes-02.svg" alt="Icon" class="cubes position-absolute top-0 end-0 w-48px lg:w-80px text-secondary d-none sm:d-block z-999" data-uc-svg>
+                                <div class="vstack sm:hstack gap-4 justify-between">
+                                    <div class="panel">
+                                        <h2 class="position-relative display-5 md:display-4 xl:display-3 mb-0 text-white z-99 text-center sm:text-start">Subscribe to Insignia’s <br class="d-none sm:d-block"> newsletter</h2>
+                                        <img class="circle position-absolute xl:w-200px z-0 d-none lg:d-block" src="../assets/images/common/circle.svg" alt="svg">
+                                    </div>
+                                    <div class="panel sm:w-400px lg:w-auto xl:w-400px">
+                                        <img class="arrow position-absolute w-100px xl:w-auto text-secondary d-none lg:d-block" style="transform: scaleX(-1) rotate(45deg) !important;" src="../assets/images/common/arrow-02.svg" alt="svg">
+                                        <div class="vstack hstack-sm gap-1">
+                                            <input type="email" class="form-control xl:fs-5 h-48px w-full bg-white dark:bg-gray-800 border-0" placeholder="info@inisigniauix.com">
+                                            <button type="submit" class="btn btn-secondary btn-md fs-5 sm:w-2/3 text-primary">Subscribe</button>
+                                        </div>
+                                    </div>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cta End -->
+
+        </div>
+
+        <!-- Wrapper end -->
+
+        <!-- Footer start -->
+
+        <!-- Footer start -->
+        <footer id="uc-footer" class="uc-footer panel overflow-hidden " data-anime="onview: -100; translateY: [24, 0]; opacity: [0, 1]; easing: easeOutCubic; duration: 450; delay: 200;">
+            <div class="footer-outer">
+                <div class="container max-w-2xl">
+                    <div class="footer-inner vstack gap-4 lg:gap-6 xl:gap-8">
+                        <div class="uc-footer-widgets panel">
+                            <div class="row child-cols-6 lg:child-cols g-4">
+                                <div class="col-12 xl:col-4">
+                                    <div class="panel vstack items-start gap-3 xl:gap-4 ltr:md:pe-8 rtl:md:ps-8">
+                                        <div>
+                                            <a href='index.html' style='width: 140px'>
+                                                <img class="w-200px d-block dark:d-none" src="../assets/images/main-logo/logo-light.png" alt="Logo light">
+                                            </a>
+                                            <a href='index.html' style='width: 140px'>
+                                                <img class="w-200px d-none dark:d-block" src="../assets/images/main-logo/logo-dark.png" alt="Logo dark">
+                                            </a>
+                                            <p class="fs-4 mt-2">Empowering your projects enhancing your success, every step of the way.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 sm:col">
+                                    <div class="panel">
+                                        <div class="row child-cols-6 sm:child-cols-3 g-2 justify-end">
+                                            <div>
+                                                <div class="panel w-fit">
+                                                    <h5 class="uc-nav-header h3 m-0 mb-1 xl:mb-2">Main pages</h5>
+                                                    <ul class="nav-y gap-1 fw-medium">
+                                                        <li><a href='page-about.html'>About</a></li>
+                                                        <li><a href='page-services.html'>Services</a></li>
+                                                        <li><a href='page-pricing.html'>Pricing</a></li>
+                                                        <li><a href="https://unistudio.co/html/insignia/main/page-blog.html">Blog</a></li>
+                                                        <li><a href='page-contact.html'>Contact</a></li>
+                                                        <li><a href='page-contact-2.html'>Contact - v2</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="panel w-fit">
+                                                    <h5 class="uc-nav-header h3 m-0 mb-1 xl:mb-2">Product</h5>
+                                                    <ul class="nav-y gap-1 fw-medium">
+                                                        <li><a href='shop.html'>Marketing</a></li>
+                                                        <li><a href='shop-sidebar.html'>Sales</a></li>
+                                                        <li><a href='shop-product-detail.html'>CMS</a></li>
+                                                        <li><a href='shop-order.html'>Operations</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="panel w-fit">
+                                                    <h5 class="uc-nav-header h3 m-0 mb-1 xl:mb-2">Features</h5>
+                                                    <ul class="nav-y gap-1 fw-medium">
+                                                        <li><a href="https://unistudio.co/html/insignia/main/page-feature.html">Core feature</a></li>
+                                                        <li><a href='page-integrations.html'>Advanced feature</a></li>
+                                                        <li><a href='index.html'>Customization</a></li>
+                                                        <li><a href='index.html'>Update</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="panel w-fit">
+                                                    <h5 class="uc-nav-header h3 m-0 mb-1 xl:mb-2">Resources</h5>
+                                                    <ul class="nav-y gap-1 fw-medium">
+                                                        <li><a href='blog.html'>Blog</a></li>
+                                                        <li><a href='page-team.html'>Freelancers</a></li>
+                                                        <li><a href='page-faq.html'>Style guide</a></li>
+                                                        <li><a href='sign-up.html'>Login</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uc-footer-bottom panel vstack lg:hstack gap-3 justify-center lg:justify-between py-3 bg-primary mt-8">
+                    <div class="container max-w-2xl">
+                        <div class="panel">
+                            <div class="vstack items-center sm:hstack justify-between">
+                                <div class="panel text-white">
+                                    <p>© 2026 <a href="page-services.html#" class="text-secondary text-none">Cortia</a> All Rights Reserved.</p>
+                                </div>
+                                <ul class="nav-x gap-2 fw-medium text-white">
+                                    <li><a href='page-terms.html'>Terms of use</a></li>
+                                    <li><a href='page-privacy.html'>Privacy notice</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Footer End -->
+
+        <!-- Footer end -->
+
+        <!-- include jquery & bootstrap js - NO DEFER on critical dependencies -->
+        <script defer src="../assets/js/libs/jquery.min.js"></script>
+        <script defer src="../assets/js/libs/bootstrap.min.js"></script>
+
+        <!-- include scripts - NO DEFER -->
+        <script defer src="../assets/js/libs/anime.min.js"></script>
+        <script defer src="../assets/js/libs/swiper-bundle.min.js"></script>
+        <script defer src="../assets/js/libs/typed.min.js"></script>
+        <script defer src="../assets/js/libs/scrollmagic.min.js"></script>
+        <script defer src="../assets/js/libs/prettify.min.js"></script>
+        <script defer src="../assets/js/libs/gsap.min.js"></script>
+        <script defer src="../assets/js/helpers/data-attr-helper.js"></script>
+        <script defer src="../assets/js/helpers/swiper-helper.js"></script>
+        <script defer src="../assets/js/helpers/anime-helper.js"></script>
+        <script defer src="../assets/js/helpers/typed-helper.js"></script>
+        <script defer src="../assets/js/uikit-components-bs.js"></script>
+
+        <!-- include app script -->
+        <script defer src="../assets/js/app-theme.js"></script>
+
+    </body>
+
+</html>
